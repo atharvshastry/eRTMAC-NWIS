@@ -71,3 +71,19 @@ EVT-0069,OIL-SYN-MH-005,TORQUE_SPIKE,MEDIUM,500,482.5,2024-02-05 06:00:00,2024-0
 EVT-0070,OIL-SYN-MH-006,MUD_LOSS,HIGH,900,868.5,2024-02-24 06:00:00,2024-02-24 11:00:00,Mumbai High Limestone,Lost circulation,Reduce ECD; pill/LCM; monitor pit volume,5.0,CONFIRMED
 EVT-0071,OIL-SYN-MH-006,NPT,MEDIUM,1650,1592.2,2024-02-28 06:00:00,2024-02-28 08:00:00,Panna,Equipment / operation delay,Troubleshoot and resume operations,2.5,INFERRED
 EVT-0072,OIL-SYN-MH-006,CEMENTING_ISSUE,MEDIUM,1260,1215.9,2024-03-03 06:00:00,2024-03-03 09:00:00,Bassein,Poor returns / channel risk,Remedial cement evaluation / squeeze,3.1,INFERRED
+EVT-0073,OIL-SYN-019,MUD_LOSS,HIGH,1500,1447.5,2024-03-12 06:00:00,2024-03-12 14:00:00,Girujan,Lost circulation,Reduce ECD; pill/LCM; monitor pit volume,5.4,CONFIRMED
+EVT-0074,OIL-SYN-019,TORQUE_SPIKE,MEDIUM,2700,2605.5,2024-03-14 06:00:00,2024-03-14 12:00:00,Tipam,High torque/drag,Optimize WOB/RPM; circulate; rotate/reciprocate,4.6,CONFIRMED
+EVT-0075,OIL-SYN-019,CEMENTING_ISSUE,MEDIUM,4050,3908.3,2024-03-16 06:00:00,2024-03-16 15:00:00,Lakwa,Poor returns / channel risk,Remedial cement evaluation / squeeze,5.1,INFERRED
+EVT-0076,OIL-SYN-019,NPT,MEDIUM,4260,4110.9,2024-03-18 06:00:00,2024-03-18 07:00:00,Nahorkatiya Sand,Equipment / operation delay,Troubleshoot and resume operations,3.4,CONFIRMED
+EVT-0077,OIL-SYN-017,TORQUE_SPIKE,MEDIUM,4030,3888.9,2024-03-20 06:00:00,2024-03-20 11:00:00,Nahorkatiya Sand,High torque/drag,Optimize WOB/RPM; circulate; rotate/reciprocate,4.9,CONFIRMED
+EVT-0078,OIL-SYN-003,NPT,MEDIUM,4100,3956.5,2024-03-22 06:00:00,2024-03-22 07:00:00,Girujan,Equipment / operation delay,Troubleshoot and resume operations,2.8,INFERRED
+EVT-0079,OIL-SYN-003,CEMENTING_ISSUE,MEDIUM,4200,4053.0,2024-03-24 06:00:00,2024-03-24 16:00:00,Tipam,Poor returns / channel risk,Remedial cement evaluation / squeeze,4.4,CONFIRMED
+EVT-0080,OIL-SYN-019,TORQUE_SPIKE,MEDIUM,4320,4168.8,2024-03-26 06:00:00,2024-03-26 11:00:00,Lakwa,High torque/drag,Optimize WOB/RPM; circulate; rotate/reciprocate,3.9,CONFIRMED
+EVT-0081,OIL-SYN-003,STUCK_PIPE,HIGH,4230,4082.0,2024-03-28 06:00:00,2024-03-28 15:00:00,Nahorkatiya Sand,Differential/pack-off tendency,Work string; circulate; ream/backream,5.7,INFERRED
+EVT-0082,OIL-SYN-017,TORQUE_SPIKE,MEDIUM,3960,3821.4,2024-03-30 06:00:00,2024-03-30 09:00:00,Girujan,High torque/drag,Optimize WOB/RPM; circulate; rotate/reciprocate,4.1,CONFIRMED
+EVT-0083,OIL-SYN-013,NPT,MEDIUM,3920,3782.8,2024-04-01 06:00:00,2024-04-01 07:00:00,Lakwa,Equipment / operation delay,Troubleshoot and resume operations,2.6,INFERRED
+EVT-0084,OIL-SYN-018,TORQUE_SPIKE,MEDIUM,3720,3589.8,2024-04-03 06:00:00,2024-04-03 10:00:00,Tipam,High torque/drag,Optimize WOB/RPM; circulate; rotate/reciprocate,3.7,CONFIRMED
+EVT-0085,OIL-SYN-013,CEMENTING_ISSUE,MEDIUM,3780,3647.7,2024-04-05 06:00:00,2024-04-05 14:00:00,Nahorkatiya Sand,Poor returns / channel risk,Remedial cement evaluation / squeeze,4.8,CONFIRMED
+EVT-0086,OIL-SYN-007,NPT,MEDIUM,3850,3715.3,2024-04-07 06:00:00,2024-04-07 07:00:00,Girujan,Equipment / operation delay,Troubleshoot and resume operations,2.2,INFERRED
+EVT-0087,OIL-SYN-013,CEMENTING_ISSUE,MEDIUM,3985,3845.0,2024-04-09 06:00:00,2024-04-09 15:00:00,Tipam,Poor returns / channel risk,Remedial cement evaluation / squeeze,4.3,CONFIRMED
+EVT-0088,OIL-SYN-017,CEMENTING_ISSUE,MEDIUM,3950,3811.8,2024-04-11 06:00:00,2024-04-11 14:00:00,Lakwa,Poor returns / channel risk,Remedial cement evaluation / squeeze,4.0,INFERRED

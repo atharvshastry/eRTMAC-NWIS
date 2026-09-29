@@ -326,7 +326,17 @@ export const DASHBOARD_WELLS = [
     risks: [{ hazard: 'Mud Loss', level: 'HIGH', depthZone: '2,800 - 2,900 m' }, { hazard: 'Stuck Pipe', level: 'MEDIUM', depthZone: '2,750 - 2,820 m' }, { hazard: 'Kick', level: 'LOW', depthZone: '2,600 - 2,850 m' }, { hazard: 'Overpressure', level: 'LOW', depthZone: '2,700 - 2,850 m' }],
     alerts: [{ id: 'ALT-1092', severity: 'HIGH', title: 'Mud Loss Risk', description: 'Historical offset wells reported losses around 2,800 - 2,900 m.', time: '14m ago', detail: 'Monitor active pit level and prepare an LCM pill.' }, { id: 'ALT-1091', severity: 'MEDIUM', title: 'Torque Increase', description: 'Current torque is above the recent baseline.', time: '42m ago', detail: 'Check string drag and hole cleaning parameters.' }, { id: 'ALT-1088', severity: 'LOW', title: 'Formation Boundary Proximity', description: 'Entering target horizon Demo Formation within 20 meters.', time: '1h 10m ago', detail: 'Verify the pore pressure gradient.' }],
     historicalEvents: 27, nearbyWells: 12, highRiskWells: 4,
-    drillingHistory: [{ depth: 2700, rop: 12.2 }, { depth: 2720, rop: 14.5 }, { depth: 2740, rop: 13.8 }, { depth: 2760, rop: 16.0 }, { depth: 2780, rop: 18.2 }, { depth: 2800, rop: 15.4 }, { depth: 2815, rop: 11.2 }, { depth: 2830, rop: 16.8 }, { depth: 2845, rop: 18.4 }],
+    drillingHistory: [
+      { depth: 2700, rop: 12.2, wob: 13.6, torque: 11.6, rpm: 112, mudFlow: 1810, standpipePressure: 2900, mudWeight: 1.27, ecd: 1.29 },
+      { depth: 2720, rop: 14.5, wob: 13.8, torque: 11.9, rpm: 113, mudFlow: 1825, standpipePressure: 2910, mudWeight: 1.27, ecd: 1.30 },
+      { depth: 2740, rop: 13.8, wob: 13.5, torque: 12.1, rpm: 114, mudFlow: 1830, standpipePressure: 2920, mudWeight: 1.28, ecd: 1.30 },
+      { depth: 2760, rop: 16.0, wob: 13.9, torque: 11.8, rpm: 115, mudFlow: 1840, standpipePressure: 2925, mudWeight: 1.28, ecd: 1.30 },
+      { depth: 2780, rop: 18.2, wob: 14.4, torque: 11.5, rpm: 116, mudFlow: 1855, standpipePressure: 2935, mudWeight: 1.28, ecd: 1.31 },
+      { depth: 2800, rop: 15.4, wob: 14.0, torque: 12.0, rpm: 114, mudFlow: 1845, standpipePressure: 2930, mudWeight: 1.28, ecd: 1.31 },
+      { depth: 2815, rop: 11.2, wob: 13.2, torque: 13.6, rpm: 110, mudFlow: 1790, standpipePressure: 2890, mudWeight: 1.29, ecd: 1.33 },
+      { depth: 2830, rop: 16.8, wob: 14.0, torque: 12.4, rpm: 114, mudFlow: 1830, standpipePressure: 2925, mudWeight: 1.28, ecd: 1.31 },
+      { depth: 2845, rop: 18.4, wob: 14.2, torque: 12.8, rpm: 115, mudFlow: 1850, standpipePressure: 2940, mudWeight: 1.28, ecd: 1.31 },
+    ],
   },
   {
     wellId: 'OIL-DEMO-002', field: 'Demo Field', status: 'Producing', latitude: 27.362, longitude: 95.334,
@@ -335,7 +345,12 @@ export const DASHBOARD_WELLS = [
     risks: [{ hazard: 'Mud Loss', level: 'LOW', depthZone: '2,750 - 2,850 m' }, { hazard: 'Stuck Pipe', level: 'MEDIUM', depthZone: '2,400 - 2,500 m' }, { hazard: 'Kick', level: 'LOW', depthZone: '2,900 - 3,100 m' }, { hazard: 'Overpressure', level: 'LOW', depthZone: '2,850 - 3,050 m' }],
     alerts: [{ id: 'ALT-2790', severity: 'MEDIUM', title: 'Stuck Pipe Risk', description: 'Overpull was observed during a connection in swelling clay.', time: '2h ago', detail: 'Limit stationary time and monitor hook load.' }, { id: 'ALT-2720', severity: 'LOW', title: 'Cementing Issue', description: 'Casing centralization standoff is below the recommended minimum.', time: '4h ago', detail: 'Review centralizer placement before the next run.' }],
     historicalEvents: 9, nearbyWells: 8, highRiskWells: 2,
-    drillingHistory: [{ depth: 2500, rop: 14.1 }, { depth: 2700, rop: 16.2 }, { depth: 2900, rop: 15.3 }, { depth: 3100, rop: 15.7 }],
+    drillingHistory: [
+      { depth: 2500, rop: 14.1, wob: 12.0, torque: 11.8, rpm: 95, mudFlow: 1690, standpipePressure: 2720, mudWeight: 1.23, ecd: 1.26 },
+      { depth: 2700, rop: 16.2, wob: 12.4, torque: 11.2, rpm: 97, mudFlow: 1705, standpipePressure: 2740, mudWeight: 1.24, ecd: 1.26 },
+      { depth: 2900, rop: 15.3, wob: 12.5, torque: 11.6, rpm: 96, mudFlow: 1715, standpipePressure: 2750, mudWeight: 1.24, ecd: 1.27 },
+      { depth: 3100, rop: 15.7, wob: 12.6, torque: 11.4, rpm: 98, mudFlow: 1720, standpipePressure: 2760, mudWeight: 1.24, ecd: 1.27 },
+    ],
   },
   {
     wellId: 'OIL-DEMO-003', field: 'Demo Field', status: 'Suspended', latitude: 27.324, longitude: 95.302,
@@ -344,7 +359,12 @@ export const DASHBOARD_WELLS = [
     risks: [{ hazard: 'Mud Loss', level: 'HIGH', depthZone: '2,600 - 3,000 m' }, { hazard: 'Stuck Pipe', level: 'HIGH', depthZone: '2,850 - 2,950 m' }, { hazard: 'Kick', level: 'HIGH', depthZone: '3,100 - 3,250 m' }, { hazard: 'Overpressure', level: 'MEDIUM', depthZone: '3,000 - 3,250 m' }],
     alerts: [{ id: 'ALT-2815', severity: 'HIGH', title: 'Kick Risk', description: 'Rapid pit volume gain and elevated flow-out were detected.', time: '1h ago', detail: 'Shut in and follow the well control procedure.' }],
     historicalEvents: 18, nearbyWells: 10, highRiskWells: 5,
-    drillingHistory: [{ depth: 2500, rop: 16.2 }, { depth: 2700, rop: 12.4 }, { depth: 2900, rop: 10.1 }, { depth: 3150, rop: 9.8 }],
+    drillingHistory: [
+      { depth: 2500, rop: 16.2, wob: 13.5, torque: 12.0, rpm: 100, mudFlow: 1650, standpipePressure: 2850, mudWeight: 1.27, ecd: 1.29 },
+      { depth: 2700, rop: 12.4, wob: 15.4, torque: 14.1, rpm: 94, mudFlow: 1480, standpipePressure: 2990, mudWeight: 1.30, ecd: 1.34 },
+      { depth: 2900, rop: 10.1, wob: 17.2, torque: 15.8, rpm: 89, mudFlow: 1310, standpipePressure: 3120, mudWeight: 1.32, ecd: 1.38 },
+      { depth: 3150, rop: 9.8, wob: 18.1, torque: 16.9, rpm: 86, mudFlow: 1200, standpipePressure: 3210, mudWeight: 1.34, ecd: 1.41 },
+    ],
   },
   {
     wellId: 'OIL-DEMO-004', field: 'Demo Field', status: 'Abandoned', latitude: 27.375, longitude: 95.295,
@@ -353,7 +373,12 @@ export const DASHBOARD_WELLS = [
     risks: [{ hazard: 'Mud Loss', level: 'HIGH', depthZone: '2,800 - 2,950 m' }, { hazard: 'Stuck Pipe', level: 'MEDIUM', depthZone: '2,700 - 2,900 m' }, { hazard: 'Kick', level: 'LOW', depthZone: '2,900 - 3,100 m' }, { hazard: 'Overpressure', level: 'MEDIUM', depthZone: '2,950 - 3,120 m' }],
     alerts: [{ id: 'ALT-2680', severity: 'HIGH', title: 'Historical Mud Loss', description: 'Severe loss was recorded at the upper Barail transition zone.', time: 'Historical', detail: 'A cement plug was pumped to seal the fractured zone.' }],
     historicalEvents: 14, nearbyWells: 9, highRiskWells: 4,
-    drillingHistory: [{ depth: 2500, rop: 13.4 }, { depth: 2700, rop: 12.6 }, { depth: 2900, rop: 10.2 }, { depth: 3120, rop: 11.4 }],
+    drillingHistory: [
+      { depth: 2500, rop: 13.4, wob: 15.6, torque: 14.0, rpm: 94, mudFlow: 1520, standpipePressure: 2940, mudWeight: 1.29, ecd: 1.33 },
+      { depth: 2700, rop: 12.6, wob: 16.0, torque: 14.5, rpm: 93, mudFlow: 1500, standpipePressure: 2960, mudWeight: 1.30, ecd: 1.34 },
+      { depth: 2900, rop: 10.2, wob: 16.5, torque: 15.2, rpm: 90, mudFlow: 1450, standpipePressure: 3010, mudWeight: 1.31, ecd: 1.36 },
+      { depth: 3120, rop: 11.4, wob: 16.2, torque: 14.8, rpm: 92, mudFlow: 1480, standpipePressure: 2980, mudWeight: 1.30, ecd: 1.35 },
+    ],
   },
   {
     wellId: 'OIL-DEMO-005', field: 'Demo Field', status: 'Producing', latitude: 27.318, longitude: 95.352,
@@ -362,6 +387,11 @@ export const DASHBOARD_WELLS = [
     risks: [{ hazard: 'Mud Loss', level: 'LOW', depthZone: '2,100 - 2,250 m' }, { hazard: 'Stuck Pipe', level: 'LOW', depthZone: '2,000 - 2,200 m' }, { hazard: 'Kick', level: 'LOW', depthZone: '2,700 - 2,980 m' }, { hazard: 'Overpressure', level: 'LOW', depthZone: '2,600 - 2,900 m' }],
     alerts: [{ id: 'ALT-2650', severity: 'LOW', title: 'Fishing Operation Closed', description: 'A recovered drill collar was successfully fished in one run.', time: 'Historical', detail: 'Overshot engagement and jarring completed the recovery.' }],
     historicalEvents: 6, nearbyWells: 7, highRiskWells: 1,
-    drillingHistory: [{ depth: 2300, rop: 15.2 }, { depth: 2500, rop: 16.7 }, { depth: 2750, rop: 17.5 }, { depth: 2980, rop: 17.1 }],
+    drillingHistory: [
+      { depth: 2300, rop: 15.2, wob: 13.0, torque: 11.3, rpm: 104, mudFlow: 1750, standpipePressure: 2780, mudWeight: 1.25, ecd: 1.28 },
+      { depth: 2500, rop: 16.7, wob: 13.2, torque: 11.1, rpm: 106, mudFlow: 1770, standpipePressure: 2800, mudWeight: 1.26, ecd: 1.28 },
+      { depth: 2750, rop: 17.5, wob: 13.5, torque: 10.7, rpm: 109, mudFlow: 1800, standpipePressure: 2830, mudWeight: 1.26, ecd: 1.29 },
+      { depth: 2980, rop: 17.1, wob: 13.4, torque: 10.9, rpm: 108, mudFlow: 1790, standpipePressure: 2820, mudWeight: 1.26, ecd: 1.29 },
+    ],
   },
 ];

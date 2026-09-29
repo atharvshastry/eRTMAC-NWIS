@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Outlet } from 'react-router-dom';
+import React, { useState, useEffect, useRef } from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import Topbar from './Topbar';
 import ChatbotWidget from '../chatbot/ChatbotWidget';
@@ -31,6 +31,23 @@ export default function MainLayout() {
   });
 
   const [isResizing, setIsResizing] = useState(false);
+
+  // Every route renders inside this same layout (Outlet just swaps the page
+  // content in place -- the layout itself never remounts), and the <main> below
+  // never actually gets its own internal scrollbar: its wrapper uses min-h-screen,
+  // so long pages just grow taller than the viewport and the browser scrolls the
+  // *window* instead. That means window scroll position otherwise carries over
+  // between pages -- scroll down on Dashboard, click Live Operations, and it opens
+  // already scrolled down. Reset both on every route change (mainRef too, in case
+  // a future layout tweak makes <main> the real scroll container instead).
+  const location = useLocation();
+  const mainRef = useRef(null);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    if (mainRef.current) {
+      mainRef.current.scrollTop = 0;
+    }
+  }, [location.pathname]);
 
   // Sync screen width and clamp sidebar width if screen narrows
   useEffect(() => {
@@ -80,7 +97,7 @@ export default function MainLayout() {
         }}
       >
         <Topbar onMobileToggle={() => setMobileOpen((value) => !value)} />
-        <main className="flex-1 min-w-0 overflow-y-auto p-4 sm:p-6 lg:p-8">
+        <main ref={mainRef} className="flex-1 min-w-0 overflow-y-auto p-4 sm:p-6 lg:p-8">
           <div className="max-w-[1400px] mx-auto w-full">
             <Outlet />
           </div>

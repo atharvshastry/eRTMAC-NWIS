@@ -30,20 +30,23 @@ export default function Dashboard() {
         field={selectedWell.field}
       />
 
-      {/* 2. NEXT: KPI Cards (9 boxes: Current Depth, ROP, WOB, Torque, RPM, Mud Flow, Standpipe Pressure, Mud Weight, ECD) */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
-        {selectedWell.kpis.map(([label, value, unit, trend, trendDirection, trendLabel]) => (
-          <KPICard
-            key={label}
-            label={label}
-            value={value}
-            unit={unit}
-            trend={trend}
-            trendDirection={trendDirection}
-            trendLabel={trendLabel}
-            targetDepth={`${selectedWell.totalDepth ? selectedWell.totalDepth.toLocaleString() : '2,980'} m`}
-          />
-        ))}
+      {/* 2. NEXT: KPI Cards (9 boxes: Current Depth, ROP, WOB, Torque, RPM, Mud Flow, Standpipe Pressure, Mud Weight, ECD) - compact horizontally sliding strip */}
+      <div className="bg-white dark:bg-[#111215] border border-[#E5E8E6] dark:border-white/[0.09] rounded-[12px] p-2.5 sm:p-3 shadow-[0_1px_2px_rgba(0,0,0,0.035)]">
+        <div className="flex gap-2.5 sm:gap-3 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-1 [&::-webkit-scrollbar]:h-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-[#D6DAD8] dark:[&::-webkit-scrollbar-thumb]:bg-white/10 [&::-webkit-scrollbar-thumb]:rounded-full">
+          {selectedWell.kpis.map(([label, value, unit, trend, trendDirection, trendLabel]) => (
+            <div key={label} className="snap-start shrink-0 w-[172px] sm:w-[186px]">
+              <KPICard
+                label={label}
+                value={value}
+                unit={unit}
+                trend={trend}
+                trendDirection={trendDirection}
+                trendLabel={trendLabel}
+                targetDepth={`${selectedWell.totalDepth ? selectedWell.totalDepth.toLocaleString() : '2,980'} m`}
+              />
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* 3. MIDDLE: Drilling Trend (2/3) + Current Risk Overview (1/3) */}

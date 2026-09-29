@@ -8,6 +8,7 @@ import KnowledgeRepository from '../pages/KnowledgeRepository';
 import RiskIntelligence from '../pages/RiskIntelligence';
 import WhatIfSimulator from '../pages/WhatIfSimulator';
 import AfterActionReports from '../pages/AfterActionReports';
+import DepthAnalysis from '../pages/DepthAnalysis';
 import LiveOperations from '../pages/LiveOperations';
 import Alerts from '../pages/Alerts';
 import Documents from '../pages/Documents';
@@ -59,6 +60,7 @@ export default function AppRoutes() {
         <Route path="/risk-intelligence" element={<RiskIntelligence />} />
         <Route path="/whatif-simulator" element={<WhatIfSimulator />} />
         <Route path="/after-action" element={<AfterActionReports />} />
+        <Route path="/depth-analysis" element={<DepthAnalysis />} />
         <Route path="/live-operations" element={<LiveOperations />} />
         <Route path="/alerts" element={<Alerts />} />
         <Route path="/documents" element={<Documents />} />

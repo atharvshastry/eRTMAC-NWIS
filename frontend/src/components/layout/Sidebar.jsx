@@ -16,6 +16,7 @@ import {
   MapPinned,
   FlaskConical,
   History,
+  TrendingDown,
 } from 'lucide-react';
 import sidebarRigBg from '../../assets/sidebar-rig-bg.jpg';
 
@@ -121,6 +122,7 @@ const NAV_ITEMS = [
   { name: 'Risk Intelligence', path: '/risk-intelligence', icon: ShieldStar },
   { name: 'What-If Simulator', path: '/whatif-simulator', icon: FlaskConical },
   { name: 'After-Action Reports', path: '/after-action', icon: History },
+  { name: 'Depth Analysis', path: '/depth-analysis', icon: TrendingDown },
   { name: 'Live Operations', path: '/live-operations', icon: RadioWaveIcon },
   { name: 'Alerts', path: '/alerts', icon: Bell },
   { name: 'Document Intelligence', path: '/documents', icon: FileText },
