@@ -1,0 +1,176 @@
+well_id,name,designation,is_key_officer,email,phone,current_posting
+OIL-SYN-001,Ankita Bora,Drilling Engineer,FALSE,ankita.bora@oil-synthetic-demo.example,Ext. 4011,"Duliajan Field HQ, Assam"
+OIL-SYN-001,Debojit Saikia,Mud Engineer,FALSE,debojit.saikia@oil-synthetic-demo.example,Ext. 4012,"Moran Field Camp, Assam"
+OIL-SYN-001,Ramen Gogoi,Toolpusher,FALSE,ramen.gogoi@oil-synthetic-demo.example,Ext. 4013,"Rig-01 Crew Pool, Assam"
+OIL-SYN-001,Priya Hazarika,Wellsite Geologist,FALSE,priya.hazarika@oil-synthetic-demo.example,Ext. 4014,"Duliajan Field HQ, Assam"
+OIL-SYN-001,Bhaskar Saikia,Field Manager,TRUE,bhaskar.saikia@oil-synthetic-demo.example,Ext. 4101,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-001,Rupam Gogoi,Drilling Superintendent,TRUE,rupam.gogoi@oil-synthetic-demo.example,Ext. 4102,"Moran Field Camp, Assam"
+OIL-SYN-001,Nandita Barua,HSE Officer,TRUE,nandita.barua@oil-synthetic-demo.example,Ext. 4103,"Moran Field Camp, Assam"
+OIL-SYN-002,Nabajit Phukan,Drilling Engineer,FALSE,nabajit.phukan@oil-synthetic-demo.example,Ext. 4021,"Naharkatiya Field Office, Assam"
+OIL-SYN-002,Sangeeta Das,Mud Engineer,FALSE,sangeeta.das@oil-synthetic-demo.example,Ext. 4022,"Rig-02 Crew Pool, Assam"
+OIL-SYN-002,Bidyut Konwar,Toolpusher,FALSE,bidyut.konwar@oil-synthetic-demo.example,Ext. 4023,"Naharkatiya Field Office, Assam"
+OIL-SYN-002,Rituparna Baruah,Wellsite Geologist,FALSE,rituparna.baruah@oil-synthetic-demo.example,Ext. 4024,"Duliajan Field HQ, Assam"
+OIL-SYN-002,Manoj Hazarika,Field Manager,TRUE,manoj.hazarika@oil-synthetic-demo.example,Ext. 4111,"Duliajan Field HQ, Assam"
+OIL-SYN-002,Deepa Phukan,Drilling Superintendent,TRUE,deepa.phukan@oil-synthetic-demo.example,Ext. 4112,"Duliajan Field HQ, Assam"
+OIL-SYN-002,Sanjib Das,HSE Officer,TRUE,sanjib.das@oil-synthetic-demo.example,Ext. 4113,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-003,Kaushik Sharma,Drilling Engineer,FALSE,kaushik.sharma@oil-synthetic-demo.example,Ext. 4031,"Moran Field Camp, Assam"
+OIL-SYN-003,Monalisa Deka,Mud Engineer,FALSE,monalisa.deka@oil-synthetic-demo.example,Ext. 4032,"Rig-03 Crew Pool, Assam"
+OIL-SYN-003,Jyotish Rajkhowa,Toolpusher,FALSE,jyotish.rajkhowa@oil-synthetic-demo.example,Ext. 4033,"Moran Field Camp, Assam"
+OIL-SYN-003,Farida Ahmed,Wellsite Geologist,FALSE,farida.ahmed@oil-synthetic-demo.example,Ext. 4034,"Naharkatiya Field Office, Assam"
+OIL-SYN-003,Utpal Konwar,Field Manager,TRUE,utpal.konwar@oil-synthetic-demo.example,Ext. 4121,"Naharkatiya Field Office, Assam"
+OIL-SYN-003,Ritu Bordoloi,Drilling Superintendent,TRUE,ritu.bordoloi@oil-synthetic-demo.example,Ext. 4122,"Naharkatiya Field Office, Assam"
+OIL-SYN-003,Amit Chetia,HSE Officer,TRUE,amit.chetia@oil-synthetic-demo.example,Ext. 4123,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-004,Pranjal Bordoloi,Drilling Engineer,FALSE,pranjal.bordoloi@oil-synthetic-demo.example,Ext. 4041,"Rig-04 Crew Pool, Assam"
+OIL-SYN-004,Rina Chetia,Mud Engineer,FALSE,rina.chetia@oil-synthetic-demo.example,Ext. 4042,"Duliajan Field HQ, Assam"
+OIL-SYN-004,Dilip Doley,Toolpusher,FALSE,dilip.doley@oil-synthetic-demo.example,Ext. 4043,"Naharkatiya Field Office, Assam"
+OIL-SYN-004,Anjali Kalita,Wellsite Geologist,FALSE,anjali.kalita@oil-synthetic-demo.example,Ext. 4044,"Rig-04 Crew Pool, Assam"
+OIL-SYN-004,Bhaskar Saikia,Field Manager,TRUE,bhaskar.saikia@oil-synthetic-demo.example,Ext. 4101,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-004,Rupam Gogoi,Drilling Superintendent,TRUE,rupam.gogoi@oil-synthetic-demo.example,Ext. 4102,"Moran Field Camp, Assam"
+OIL-SYN-004,Nandita Barua,HSE Officer,TRUE,nandita.barua@oil-synthetic-demo.example,Ext. 4103,"Moran Field Camp, Assam"
+OIL-SYN-005,Ankita Bora,Drilling Engineer,FALSE,ankita.bora@oil-synthetic-demo.example,Ext. 4011,"Duliajan Field HQ, Assam"
+OIL-SYN-005,Debojit Saikia,Mud Engineer,FALSE,debojit.saikia@oil-synthetic-demo.example,Ext. 4012,"Moran Field Camp, Assam"
+OIL-SYN-005,Ramen Gogoi,Toolpusher,FALSE,ramen.gogoi@oil-synthetic-demo.example,Ext. 4013,"Rig-01 Crew Pool, Assam"
+OIL-SYN-005,Priya Hazarika,Wellsite Geologist,FALSE,priya.hazarika@oil-synthetic-demo.example,Ext. 4014,"Duliajan Field HQ, Assam"
+OIL-SYN-005,Manoj Hazarika,Field Manager,TRUE,manoj.hazarika@oil-synthetic-demo.example,Ext. 4111,"Duliajan Field HQ, Assam"
+OIL-SYN-005,Deepa Phukan,Drilling Superintendent,TRUE,deepa.phukan@oil-synthetic-demo.example,Ext. 4112,"Duliajan Field HQ, Assam"
+OIL-SYN-005,Sanjib Das,HSE Officer,TRUE,sanjib.das@oil-synthetic-demo.example,Ext. 4113,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-006,Nabajit Phukan,Drilling Engineer,FALSE,nabajit.phukan@oil-synthetic-demo.example,Ext. 4021,"Naharkatiya Field Office, Assam"
+OIL-SYN-006,Sangeeta Das,Mud Engineer,FALSE,sangeeta.das@oil-synthetic-demo.example,Ext. 4022,"Rig-02 Crew Pool, Assam"
+OIL-SYN-006,Bidyut Konwar,Toolpusher,FALSE,bidyut.konwar@oil-synthetic-demo.example,Ext. 4023,"Naharkatiya Field Office, Assam"
+OIL-SYN-006,Rituparna Baruah,Wellsite Geologist,FALSE,rituparna.baruah@oil-synthetic-demo.example,Ext. 4024,"Duliajan Field HQ, Assam"
+OIL-SYN-006,Utpal Konwar,Field Manager,TRUE,utpal.konwar@oil-synthetic-demo.example,Ext. 4121,"Naharkatiya Field Office, Assam"
+OIL-SYN-006,Ritu Bordoloi,Drilling Superintendent,TRUE,ritu.bordoloi@oil-synthetic-demo.example,Ext. 4122,"Naharkatiya Field Office, Assam"
+OIL-SYN-006,Amit Chetia,HSE Officer,TRUE,amit.chetia@oil-synthetic-demo.example,Ext. 4123,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-007,Kaushik Sharma,Drilling Engineer,FALSE,kaushik.sharma@oil-synthetic-demo.example,Ext. 4031,"Moran Field Camp, Assam"
+OIL-SYN-007,Monalisa Deka,Mud Engineer,FALSE,monalisa.deka@oil-synthetic-demo.example,Ext. 4032,"Rig-03 Crew Pool, Assam"
+OIL-SYN-007,Jyotish Rajkhowa,Toolpusher,FALSE,jyotish.rajkhowa@oil-synthetic-demo.example,Ext. 4033,"Moran Field Camp, Assam"
+OIL-SYN-007,Farida Ahmed,Wellsite Geologist,FALSE,farida.ahmed@oil-synthetic-demo.example,Ext. 4034,"Naharkatiya Field Office, Assam"
+OIL-SYN-007,Bhaskar Saikia,Field Manager,TRUE,bhaskar.saikia@oil-synthetic-demo.example,Ext. 4101,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-007,Rupam Gogoi,Drilling Superintendent,TRUE,rupam.gogoi@oil-synthetic-demo.example,Ext. 4102,"Moran Field Camp, Assam"
+OIL-SYN-007,Nandita Barua,HSE Officer,TRUE,nandita.barua@oil-synthetic-demo.example,Ext. 4103,"Moran Field Camp, Assam"
+OIL-SYN-008,Pranjal Bordoloi,Drilling Engineer,FALSE,pranjal.bordoloi@oil-synthetic-demo.example,Ext. 4041,"Rig-04 Crew Pool, Assam"
+OIL-SYN-008,Rina Chetia,Mud Engineer,FALSE,rina.chetia@oil-synthetic-demo.example,Ext. 4042,"Duliajan Field HQ, Assam"
+OIL-SYN-008,Dilip Doley,Toolpusher,FALSE,dilip.doley@oil-synthetic-demo.example,Ext. 4043,"Naharkatiya Field Office, Assam"
+OIL-SYN-008,Anjali Kalita,Wellsite Geologist,FALSE,anjali.kalita@oil-synthetic-demo.example,Ext. 4044,"Rig-04 Crew Pool, Assam"
+OIL-SYN-008,Manoj Hazarika,Field Manager,TRUE,manoj.hazarika@oil-synthetic-demo.example,Ext. 4111,"Duliajan Field HQ, Assam"
+OIL-SYN-008,Deepa Phukan,Drilling Superintendent,TRUE,deepa.phukan@oil-synthetic-demo.example,Ext. 4112,"Duliajan Field HQ, Assam"
+OIL-SYN-008,Sanjib Das,HSE Officer,TRUE,sanjib.das@oil-synthetic-demo.example,Ext. 4113,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-009,Ankita Bora,Drilling Engineer,FALSE,ankita.bora@oil-synthetic-demo.example,Ext. 4011,"Duliajan Field HQ, Assam"
+OIL-SYN-009,Debojit Saikia,Mud Engineer,FALSE,debojit.saikia@oil-synthetic-demo.example,Ext. 4012,"Moran Field Camp, Assam"
+OIL-SYN-009,Ramen Gogoi,Toolpusher,FALSE,ramen.gogoi@oil-synthetic-demo.example,Ext. 4013,"Rig-01 Crew Pool, Assam"
+OIL-SYN-009,Priya Hazarika,Wellsite Geologist,FALSE,priya.hazarika@oil-synthetic-demo.example,Ext. 4014,"Duliajan Field HQ, Assam"
+OIL-SYN-009,Utpal Konwar,Field Manager,TRUE,utpal.konwar@oil-synthetic-demo.example,Ext. 4121,"Naharkatiya Field Office, Assam"
+OIL-SYN-009,Ritu Bordoloi,Drilling Superintendent,TRUE,ritu.bordoloi@oil-synthetic-demo.example,Ext. 4122,"Naharkatiya Field Office, Assam"
+OIL-SYN-009,Amit Chetia,HSE Officer,TRUE,amit.chetia@oil-synthetic-demo.example,Ext. 4123,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-010,Nabajit Phukan,Drilling Engineer,FALSE,nabajit.phukan@oil-synthetic-demo.example,Ext. 4021,"Naharkatiya Field Office, Assam"
+OIL-SYN-010,Sangeeta Das,Mud Engineer,FALSE,sangeeta.das@oil-synthetic-demo.example,Ext. 4022,"Rig-02 Crew Pool, Assam"
+OIL-SYN-010,Bidyut Konwar,Toolpusher,FALSE,bidyut.konwar@oil-synthetic-demo.example,Ext. 4023,"Naharkatiya Field Office, Assam"
+OIL-SYN-010,Rituparna Baruah,Wellsite Geologist,FALSE,rituparna.baruah@oil-synthetic-demo.example,Ext. 4024,"Duliajan Field HQ, Assam"
+OIL-SYN-010,Bhaskar Saikia,Field Manager,TRUE,bhaskar.saikia@oil-synthetic-demo.example,Ext. 4101,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-010,Rupam Gogoi,Drilling Superintendent,TRUE,rupam.gogoi@oil-synthetic-demo.example,Ext. 4102,"Moran Field Camp, Assam"
+OIL-SYN-010,Nandita Barua,HSE Officer,TRUE,nandita.barua@oil-synthetic-demo.example,Ext. 4103,"Moran Field Camp, Assam"
+OIL-SYN-011,Kaushik Sharma,Drilling Engineer,FALSE,kaushik.sharma@oil-synthetic-demo.example,Ext. 4031,"Moran Field Camp, Assam"
+OIL-SYN-011,Monalisa Deka,Mud Engineer,FALSE,monalisa.deka@oil-synthetic-demo.example,Ext. 4032,"Rig-03 Crew Pool, Assam"
+OIL-SYN-011,Jyotish Rajkhowa,Toolpusher,FALSE,jyotish.rajkhowa@oil-synthetic-demo.example,Ext. 4033,"Moran Field Camp, Assam"
+OIL-SYN-011,Farida Ahmed,Wellsite Geologist,FALSE,farida.ahmed@oil-synthetic-demo.example,Ext. 4034,"Naharkatiya Field Office, Assam"
+OIL-SYN-011,Manoj Hazarika,Field Manager,TRUE,manoj.hazarika@oil-synthetic-demo.example,Ext. 4111,"Duliajan Field HQ, Assam"
+OIL-SYN-011,Deepa Phukan,Drilling Superintendent,TRUE,deepa.phukan@oil-synthetic-demo.example,Ext. 4112,"Duliajan Field HQ, Assam"
+OIL-SYN-011,Sanjib Das,HSE Officer,TRUE,sanjib.das@oil-synthetic-demo.example,Ext. 4113,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-012,Pranjal Bordoloi,Drilling Engineer,FALSE,pranjal.bordoloi@oil-synthetic-demo.example,Ext. 4041,"Rig-04 Crew Pool, Assam"
+OIL-SYN-012,Rina Chetia,Mud Engineer,FALSE,rina.chetia@oil-synthetic-demo.example,Ext. 4042,"Duliajan Field HQ, Assam"
+OIL-SYN-012,Dilip Doley,Toolpusher,FALSE,dilip.doley@oil-synthetic-demo.example,Ext. 4043,"Naharkatiya Field Office, Assam"
+OIL-SYN-012,Anjali Kalita,Wellsite Geologist,FALSE,anjali.kalita@oil-synthetic-demo.example,Ext. 4044,"Rig-04 Crew Pool, Assam"
+OIL-SYN-012,Utpal Konwar,Field Manager,TRUE,utpal.konwar@oil-synthetic-demo.example,Ext. 4121,"Naharkatiya Field Office, Assam"
+OIL-SYN-012,Ritu Bordoloi,Drilling Superintendent,TRUE,ritu.bordoloi@oil-synthetic-demo.example,Ext. 4122,"Naharkatiya Field Office, Assam"
+OIL-SYN-012,Amit Chetia,HSE Officer,TRUE,amit.chetia@oil-synthetic-demo.example,Ext. 4123,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-013,Ankita Bora,Drilling Engineer,FALSE,ankita.bora@oil-synthetic-demo.example,Ext. 4011,"Duliajan Field HQ, Assam"
+OIL-SYN-013,Debojit Saikia,Mud Engineer,FALSE,debojit.saikia@oil-synthetic-demo.example,Ext. 4012,"Moran Field Camp, Assam"
+OIL-SYN-013,Ramen Gogoi,Toolpusher,FALSE,ramen.gogoi@oil-synthetic-demo.example,Ext. 4013,"Rig-01 Crew Pool, Assam"
+OIL-SYN-013,Priya Hazarika,Wellsite Geologist,FALSE,priya.hazarika@oil-synthetic-demo.example,Ext. 4014,"Duliajan Field HQ, Assam"
+OIL-SYN-013,Bhaskar Saikia,Field Manager,TRUE,bhaskar.saikia@oil-synthetic-demo.example,Ext. 4101,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-013,Rupam Gogoi,Drilling Superintendent,TRUE,rupam.gogoi@oil-synthetic-demo.example,Ext. 4102,"Moran Field Camp, Assam"
+OIL-SYN-013,Nandita Barua,HSE Officer,TRUE,nandita.barua@oil-synthetic-demo.example,Ext. 4103,"Moran Field Camp, Assam"
+OIL-SYN-014,Nabajit Phukan,Drilling Engineer,FALSE,nabajit.phukan@oil-synthetic-demo.example,Ext. 4021,"Naharkatiya Field Office, Assam"
+OIL-SYN-014,Sangeeta Das,Mud Engineer,FALSE,sangeeta.das@oil-synthetic-demo.example,Ext. 4022,"Rig-02 Crew Pool, Assam"
+OIL-SYN-014,Bidyut Konwar,Toolpusher,FALSE,bidyut.konwar@oil-synthetic-demo.example,Ext. 4023,"Naharkatiya Field Office, Assam"
+OIL-SYN-014,Rituparna Baruah,Wellsite Geologist,FALSE,rituparna.baruah@oil-synthetic-demo.example,Ext. 4024,"Duliajan Field HQ, Assam"
+OIL-SYN-014,Manoj Hazarika,Field Manager,TRUE,manoj.hazarika@oil-synthetic-demo.example,Ext. 4111,"Duliajan Field HQ, Assam"
+OIL-SYN-014,Deepa Phukan,Drilling Superintendent,TRUE,deepa.phukan@oil-synthetic-demo.example,Ext. 4112,"Duliajan Field HQ, Assam"
+OIL-SYN-014,Sanjib Das,HSE Officer,TRUE,sanjib.das@oil-synthetic-demo.example,Ext. 4113,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-015,Kaushik Sharma,Drilling Engineer,FALSE,kaushik.sharma@oil-synthetic-demo.example,Ext. 4031,"Moran Field Camp, Assam"
+OIL-SYN-015,Monalisa Deka,Mud Engineer,FALSE,monalisa.deka@oil-synthetic-demo.example,Ext. 4032,"Rig-03 Crew Pool, Assam"
+OIL-SYN-015,Jyotish Rajkhowa,Toolpusher,FALSE,jyotish.rajkhowa@oil-synthetic-demo.example,Ext. 4033,"Moran Field Camp, Assam"
+OIL-SYN-015,Farida Ahmed,Wellsite Geologist,FALSE,farida.ahmed@oil-synthetic-demo.example,Ext. 4034,"Naharkatiya Field Office, Assam"
+OIL-SYN-015,Utpal Konwar,Field Manager,TRUE,utpal.konwar@oil-synthetic-demo.example,Ext. 4121,"Naharkatiya Field Office, Assam"
+OIL-SYN-015,Ritu Bordoloi,Drilling Superintendent,TRUE,ritu.bordoloi@oil-synthetic-demo.example,Ext. 4122,"Naharkatiya Field Office, Assam"
+OIL-SYN-015,Amit Chetia,HSE Officer,TRUE,amit.chetia@oil-synthetic-demo.example,Ext. 4123,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-016,Pranjal Bordoloi,Drilling Engineer,FALSE,pranjal.bordoloi@oil-synthetic-demo.example,Ext. 4041,"Rig-04 Crew Pool, Assam"
+OIL-SYN-016,Rina Chetia,Mud Engineer,FALSE,rina.chetia@oil-synthetic-demo.example,Ext. 4042,"Duliajan Field HQ, Assam"
+OIL-SYN-016,Dilip Doley,Toolpusher,FALSE,dilip.doley@oil-synthetic-demo.example,Ext. 4043,"Naharkatiya Field Office, Assam"
+OIL-SYN-016,Anjali Kalita,Wellsite Geologist,FALSE,anjali.kalita@oil-synthetic-demo.example,Ext. 4044,"Rig-04 Crew Pool, Assam"
+OIL-SYN-016,Bhaskar Saikia,Field Manager,TRUE,bhaskar.saikia@oil-synthetic-demo.example,Ext. 4101,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-016,Rupam Gogoi,Drilling Superintendent,TRUE,rupam.gogoi@oil-synthetic-demo.example,Ext. 4102,"Moran Field Camp, Assam"
+OIL-SYN-016,Nandita Barua,HSE Officer,TRUE,nandita.barua@oil-synthetic-demo.example,Ext. 4103,"Moran Field Camp, Assam"
+OIL-SYN-017,Ankita Bora,Drilling Engineer,FALSE,ankita.bora@oil-synthetic-demo.example,Ext. 4011,"Duliajan Field HQ, Assam"
+OIL-SYN-017,Debojit Saikia,Mud Engineer,FALSE,debojit.saikia@oil-synthetic-demo.example,Ext. 4012,"Moran Field Camp, Assam"
+OIL-SYN-017,Ramen Gogoi,Toolpusher,FALSE,ramen.gogoi@oil-synthetic-demo.example,Ext. 4013,"Rig-01 Crew Pool, Assam"
+OIL-SYN-017,Priya Hazarika,Wellsite Geologist,FALSE,priya.hazarika@oil-synthetic-demo.example,Ext. 4014,"Duliajan Field HQ, Assam"
+OIL-SYN-017,Manoj Hazarika,Field Manager,TRUE,manoj.hazarika@oil-synthetic-demo.example,Ext. 4111,"Duliajan Field HQ, Assam"
+OIL-SYN-017,Deepa Phukan,Drilling Superintendent,TRUE,deepa.phukan@oil-synthetic-demo.example,Ext. 4112,"Duliajan Field HQ, Assam"
+OIL-SYN-017,Sanjib Das,HSE Officer,TRUE,sanjib.das@oil-synthetic-demo.example,Ext. 4113,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-018,Nabajit Phukan,Drilling Engineer,FALSE,nabajit.phukan@oil-synthetic-demo.example,Ext. 4021,"Naharkatiya Field Office, Assam"
+OIL-SYN-018,Sangeeta Das,Mud Engineer,FALSE,sangeeta.das@oil-synthetic-demo.example,Ext. 4022,"Rig-02 Crew Pool, Assam"
+OIL-SYN-018,Bidyut Konwar,Toolpusher,FALSE,bidyut.konwar@oil-synthetic-demo.example,Ext. 4023,"Naharkatiya Field Office, Assam"
+OIL-SYN-018,Rituparna Baruah,Wellsite Geologist,FALSE,rituparna.baruah@oil-synthetic-demo.example,Ext. 4024,"Duliajan Field HQ, Assam"
+OIL-SYN-018,Utpal Konwar,Field Manager,TRUE,utpal.konwar@oil-synthetic-demo.example,Ext. 4121,"Naharkatiya Field Office, Assam"
+OIL-SYN-018,Ritu Bordoloi,Drilling Superintendent,TRUE,ritu.bordoloi@oil-synthetic-demo.example,Ext. 4122,"Naharkatiya Field Office, Assam"
+OIL-SYN-018,Amit Chetia,HSE Officer,TRUE,amit.chetia@oil-synthetic-demo.example,Ext. 4123,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-ACTIVE-01,Rohit Mahanta,Drilling Engineer,FALSE,rohit.mahanta@oil-synthetic-demo.example,Ext. 4051,"On-site -- Rig DEM-01, Moran"
+OIL-SYN-ACTIVE-01,Sushmita Borah,Mud Engineer,FALSE,sushmita.borah@oil-synthetic-demo.example,Ext. 4052,"On-site -- Rig DEM-01, Moran"
+OIL-SYN-ACTIVE-01,Gautam Neog,Toolpusher,FALSE,gautam.neog@oil-synthetic-demo.example,Ext. 4053,"On-site -- Rig DEM-01, Moran"
+OIL-SYN-ACTIVE-01,Meenakshi Talukdar,Wellsite Geologist,FALSE,meenakshi.talukdar@oil-synthetic-demo.example,Ext. 4054,"On-site -- Rig DEM-01, Moran"
+OIL-SYN-ACTIVE-01,Bhaskar Saikia,Field Manager,TRUE,bhaskar.saikia@oil-synthetic-demo.example,Ext. 4101,"OIL India Corporate HQ, Duliajan"
+OIL-SYN-ACTIVE-01,Rupam Gogoi,Drilling Superintendent,TRUE,rupam.gogoi@oil-synthetic-demo.example,Ext. 4102,"Moran Field Camp, Assam"
+OIL-SYN-ACTIVE-01,Nandita Barua,HSE Officer,TRUE,nandita.barua@oil-synthetic-demo.example,Ext. 4103,"Moran Field Camp, Assam"
+OIL-SYN-MH-001,Arjun Deshmukh,Drilling Engineer,FALSE,arjun.deshmukh@oil-synthetic-demo.example,Ext. 4061,Mumbai High Offshore Complex
+OIL-SYN-MH-001,Neha Kulkarni,Mud Engineer,FALSE,neha.kulkarni@oil-synthetic-demo.example,Ext. 4062,Mumbai High Offshore Complex
+OIL-SYN-MH-001,Suresh Patil,Toolpusher,FALSE,suresh.patil@oil-synthetic-demo.example,Ext. 4063,"Sagar Vijay Crew Pool, Mumbai"
+OIL-SYN-MH-001,Kavita Nair,Wellsite Geologist,FALSE,kavita.nair@oil-synthetic-demo.example,Ext. 4064,Mumbai Regional Office
+OIL-SYN-MH-001,Sunil Deshpande,Field Manager,TRUE,sunil.deshpande@oil-synthetic-demo.example,Ext. 4131,Mumbai Regional Office
+OIL-SYN-MH-001,Meera Rao,Drilling Superintendent,TRUE,meera.rao@oil-synthetic-demo.example,Ext. 4132,Mumbai High Offshore Complex
+OIL-SYN-MH-001,Aslam Sheikh,HSE Officer,TRUE,aslam.sheikh@oil-synthetic-demo.example,Ext. 4133,Mumbai High Offshore Complex
+OIL-SYN-MH-002,Rahul Shah,Drilling Engineer,FALSE,rahul.shah@oil-synthetic-demo.example,Ext. 4071,"Sagar Samrat Crew Pool, Mumbai"
+OIL-SYN-MH-002,Divya Iyer,Mud Engineer,FALSE,divya.iyer@oil-synthetic-demo.example,Ext. 4072,Mumbai High Offshore Complex
+OIL-SYN-MH-002,Imran Khan,Toolpusher,FALSE,imran.khan@oil-synthetic-demo.example,Ext. 4073,Mumbai High Offshore Complex
+OIL-SYN-MH-002,Pooja Reddy,Wellsite Geologist,FALSE,pooja.reddy@oil-synthetic-demo.example,Ext. 4074,Mumbai Regional Office
+OIL-SYN-MH-002,Sunil Deshpande,Field Manager,TRUE,sunil.deshpande@oil-synthetic-demo.example,Ext. 4131,Mumbai Regional Office
+OIL-SYN-MH-002,Meera Rao,Drilling Superintendent,TRUE,meera.rao@oil-synthetic-demo.example,Ext. 4132,Mumbai High Offshore Complex
+OIL-SYN-MH-002,Aslam Sheikh,HSE Officer,TRUE,aslam.sheikh@oil-synthetic-demo.example,Ext. 4133,Mumbai High Offshore Complex
+OIL-SYN-MH-003,Vikram Joshi,Drilling Engineer,FALSE,vikram.joshi@oil-synthetic-demo.example,Ext. 4081,Mumbai High Offshore Complex
+OIL-SYN-MH-003,Ananya Menon,Mud Engineer,FALSE,ananya.menon@oil-synthetic-demo.example,Ext. 4082,"Sagar Bhushan Crew Pool, Mumbai"
+OIL-SYN-MH-003,Faisal Sheikh,Toolpusher,FALSE,faisal.sheikh@oil-synthetic-demo.example,Ext. 4083,Mumbai High Offshore Complex
+OIL-SYN-MH-003,Swati Pillai,Wellsite Geologist,FALSE,swati.pillai@oil-synthetic-demo.example,Ext. 4084,Mumbai Regional Office
+OIL-SYN-MH-003,Ravi Kamath,Field Manager,TRUE,ravi.kamath@oil-synthetic-demo.example,Ext. 4141,Mumbai Regional Office
+OIL-SYN-MH-003,Shalini Menon,Drilling Superintendent,TRUE,shalini.menon@oil-synthetic-demo.example,Ext. 4142,Mumbai High Offshore Complex
+OIL-SYN-MH-003,Rajesh Iyer,HSE Officer,TRUE,rajesh.iyer@oil-synthetic-demo.example,Ext. 4143,Mumbai Regional Office
+OIL-SYN-MH-004,Arjun Deshmukh,Drilling Engineer,FALSE,arjun.deshmukh@oil-synthetic-demo.example,Ext. 4061,Mumbai High Offshore Complex
+OIL-SYN-MH-004,Neha Kulkarni,Mud Engineer,FALSE,neha.kulkarni@oil-synthetic-demo.example,Ext. 4062,Mumbai High Offshore Complex
+OIL-SYN-MH-004,Suresh Patil,Toolpusher,FALSE,suresh.patil@oil-synthetic-demo.example,Ext. 4063,"Sagar Vijay Crew Pool, Mumbai"
+OIL-SYN-MH-004,Kavita Nair,Wellsite Geologist,FALSE,kavita.nair@oil-synthetic-demo.example,Ext. 4064,Mumbai Regional Office
+OIL-SYN-MH-004,Ravi Kamath,Field Manager,TRUE,ravi.kamath@oil-synthetic-demo.example,Ext. 4141,Mumbai Regional Office
+OIL-SYN-MH-004,Shalini Menon,Drilling Superintendent,TRUE,shalini.menon@oil-synthetic-demo.example,Ext. 4142,Mumbai High Offshore Complex
+OIL-SYN-MH-004,Rajesh Iyer,HSE Officer,TRUE,rajesh.iyer@oil-synthetic-demo.example,Ext. 4143,Mumbai Regional Office
+OIL-SYN-MH-005,Rahul Shah,Drilling Engineer,FALSE,rahul.shah@oil-synthetic-demo.example,Ext. 4071,"Sagar Samrat Crew Pool, Mumbai"
+OIL-SYN-MH-005,Divya Iyer,Mud Engineer,FALSE,divya.iyer@oil-synthetic-demo.example,Ext. 4072,Mumbai High Offshore Complex
+OIL-SYN-MH-005,Imran Khan,Toolpusher,FALSE,imran.khan@oil-synthetic-demo.example,Ext. 4073,Mumbai High Offshore Complex
+OIL-SYN-MH-005,Pooja Reddy,Wellsite Geologist,FALSE,pooja.reddy@oil-synthetic-demo.example,Ext. 4074,Mumbai Regional Office
+OIL-SYN-MH-005,Sunil Deshpande,Field Manager,TRUE,sunil.deshpande@oil-synthetic-demo.example,Ext. 4131,Mumbai Regional Office
+OIL-SYN-MH-005,Meera Rao,Drilling Superintendent,TRUE,meera.rao@oil-synthetic-demo.example,Ext. 4132,Mumbai High Offshore Complex
+OIL-SYN-MH-005,Aslam Sheikh,HSE Officer,TRUE,aslam.sheikh@oil-synthetic-demo.example,Ext. 4133,Mumbai High Offshore Complex
+OIL-SYN-MH-006,Vikram Joshi,Drilling Engineer,FALSE,vikram.joshi@oil-synthetic-demo.example,Ext. 4081,Mumbai High Offshore Complex
+OIL-SYN-MH-006,Ananya Menon,Mud Engineer,FALSE,ananya.menon@oil-synthetic-demo.example,Ext. 4082,"Sagar Bhushan Crew Pool, Mumbai"
+OIL-SYN-MH-006,Faisal Sheikh,Toolpusher,FALSE,faisal.sheikh@oil-synthetic-demo.example,Ext. 4083,Mumbai High Offshore Complex
+OIL-SYN-MH-006,Swati Pillai,Wellsite Geologist,FALSE,swati.pillai@oil-synthetic-demo.example,Ext. 4084,Mumbai Regional Office
+OIL-SYN-MH-006,Ravi Kamath,Field Manager,TRUE,ravi.kamath@oil-synthetic-demo.example,Ext. 4141,Mumbai Regional Office
+OIL-SYN-MH-006,Shalini Menon,Drilling Superintendent,TRUE,shalini.menon@oil-synthetic-demo.example,Ext. 4142,Mumbai High Offshore Complex
+OIL-SYN-MH-006,Rajesh Iyer,HSE Officer,TRUE,rajesh.iyer@oil-synthetic-demo.example,Ext. 4143,Mumbai Regional Office

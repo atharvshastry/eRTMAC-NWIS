@@ -1,0 +1,21 @@
+# --- core (required) ---
+pymupdf
+pdfplumber
+pillow
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic>=2
+pandas
+scikit-learn      # TF-IDF hybrid search (app/search.py) -- see that file for the real-embeddings
+                  # upgrade path (sentence-transformers + bge-small-en-v1.5) once you have network
+                  # access to download the model
+
+# --- OCR (install ONE; PaddleOCR is preferred, Tesseract is the lightweight fallback) ---
+# pip install paddlepaddle paddleocr        # CPU build; works on Windows/Linux/Mac
+# pip install pytesseract                   # also needs the Tesseract binary installed on the OS
+
+# --- dev / testing ---
+reportlab
+pytest
+httpx

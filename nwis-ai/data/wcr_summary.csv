@@ -1,0 +1,20 @@
+wcr_id,well_id,field,spud_date,rig_release_date,planned_td_m,actual_td_m,event_count,mud_loss_events,stuck_pipe_events,kick_events,completion_data_confidence,summary_note
+WCR-OIL-SYN-001,OIL-SYN-001,Upper Assam Basin - Moran,2023-01-10,2023-02-13,3700,3700,2,1,1,0,0.981,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-002,OIL-SYN-002,Upper Assam Basin - Duliajan,2023-01-27,2023-02-25,3200,3245,3,0,1,1,0.958,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-003,OIL-SYN-003,Assam Shelf - Naharkatiya,2023-02-13,2023-03-19,4200,4245,4,0,0,1,0.972,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-004,OIL-SYN-004,Upper Assam Basin - Moran,2023-03-02,2023-04-23,3450,3495,2,0,0,0,0.966,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-005,OIL-SYN-005,Upper Assam Basin - Duliajan,2023-03-19,2023-04-25,3950,3995,3,1,0,0,0.959,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-006,OIL-SYN-006,Assam Shelf - Naharkatiya,2023-04-05,2023-05-19,3450,3370,4,1,1,1,0.981,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-007,OIL-SYN-007,Upper Assam Basin - Moran,2023-04-22,2023-05-22,4200,4170,2,1,1,0,0.968,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-008,OIL-SYN-008,Upper Assam Basin - Duliajan,2023-05-09,2023-06-18,3450,3370,3,0,1,1,0.969,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-009,OIL-SYN-009,Assam Shelf - Naharkatiya,2023-05-26,2023-06-19,3700,3745,4,0,0,1,0.954,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-010,OIL-SYN-010,Upper Assam Basin - Moran,2023-06-12,2023-07-09,3950,4040,2,0,0,0,0.963,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-011,OIL-SYN-011,Upper Assam Basin - Duliajan,2023-06-29,2023-07-24,3450,3540,3,1,0,0,0.963,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-012,OIL-SYN-012,Assam Shelf - Naharkatiya,2023-07-16,2023-08-17,3450,3450,4,1,1,1,0.961,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-013,OIL-SYN-013,Upper Assam Basin - Moran,2023-08-02,2023-09-11,3950,3995,2,1,1,0,0.966,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-014,OIL-SYN-014,Upper Assam Basin - Duliajan,2023-08-19,2023-09-30,3200,3170,3,0,1,1,0.948,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-015,OIL-SYN-015,Assam Shelf - Naharkatiya,2023-09-05,2023-09-29,3700,3700,4,0,0,1,0.971,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-016,OIL-SYN-016,Upper Assam Basin - Moran,2023-09-22,2023-11-13,3950,3920,2,0,0,0,0.977,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-017,OIL-SYN-017,Upper Assam Basin - Duliajan,2023-10-09,2023-11-13,4200,4200,3,1,0,0,0.946,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-018,OIL-SYN-018,Assam Shelf - Naharkatiya,2023-10-26,2023-12-06,3950,3995,4,1,1,1,0.963,Synthetic completion summary generated for NWIS prototype; not an OIL record.
+WCR-OIL-SYN-ACTIVE-01,OIL-SYN-ACTIVE-01,Upper Assam Basin - Moran,2023-11-12,,3650,2860,0,0,0,0,0.946,Synthetic completion summary generated for NWIS prototype; not an OIL record.

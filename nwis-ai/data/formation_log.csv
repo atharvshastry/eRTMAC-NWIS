@@ -1,0 +1,118 @@
+well_id,formation,top_md_m,base_md_m,lithology,reservoir_quality_index,formation_risk
+OIL-SYN-001,Barail,789,1412,Shale/Sand alternation,0.92,HIGH
+OIL-SYN-001,Tipam,1371,2069,Fine to medium sandstone,0.92,HIGH
+OIL-SYN-001,Girujan,2056,2564,Shale-dominant interval,0.93,HIGH
+OIL-SYN-001,Lakwa,2554,3203,Sandstone reservoir,0.92,MODERATE
+OIL-SYN-001,Nahorkatiya Sand,3201,3700,Clean sandstone,0.93,MODERATE
+OIL-SYN-002,Barail,777,1395,Shale/Sand alternation,0.89,HIGH
+OIL-SYN-002,Tipam,1397,2067,Fine to medium sandstone,0.91,MODERATE
+OIL-SYN-002,Girujan,2042,2542,Shale-dominant interval,0.93,HIGH
+OIL-SYN-002,Lakwa,2528,3192,Sandstone reservoir,0.89,LOW
+OIL-SYN-002,Nahorkatiya Sand,3172,3245,Clean sandstone,0.87,LOW
+OIL-SYN-003,Barail,795,1393,Shale/Sand alternation,0.86,LOW
+OIL-SYN-003,Tipam,1395,2036,Fine to medium sandstone,0.91,LOW
+OIL-SYN-003,Girujan,2047,2573,Shale-dominant interval,0.9,HIGH
+OIL-SYN-003,Lakwa,2546,3203,Sandstone reservoir,0.87,LOW
+OIL-SYN-003,Nahorkatiya Sand,3200,3707,Clean sandstone,0.92,HIGH
+OIL-SYN-004,Barail,807,1412,Shale/Sand alternation,0.92,MODERATE
+OIL-SYN-004,Tipam,1406,2059,Fine to medium sandstone,0.9,HIGH
+OIL-SYN-004,Girujan,2042,2561,Shale-dominant interval,0.93,MODERATE
+OIL-SYN-004,Lakwa,2557,3188,Sandstone reservoir,0.93,HIGH
+OIL-SYN-004,Nahorkatiya Sand,3188,3495,Clean sandstone,0.94,HIGH
+OIL-SYN-005,Barail,793,1405,Shale/Sand alternation,0.9,LOW
+OIL-SYN-005,Tipam,1381,2056,Fine to medium sandstone,0.86,MODERATE
+OIL-SYN-005,Girujan,2040,2556,Shale-dominant interval,0.86,MODERATE
+OIL-SYN-005,Lakwa,2555,3219,Sandstone reservoir,0.87,LOW
+OIL-SYN-005,Nahorkatiya Sand,3197,3720,Clean sandstone,0.87,MODERATE
+OIL-SYN-006,Barail,776,1409,Shale/Sand alternation,0.92,LOW
+OIL-SYN-006,Tipam,1376,2053,Fine to medium sandstone,0.9,MODERATE
+OIL-SYN-006,Girujan,2026,2564,Shale-dominant interval,0.94,HIGH
+OIL-SYN-006,Lakwa,2530,3208,Sandstone reservoir,0.91,LOW
+OIL-SYN-006,Nahorkatiya Sand,3178,3370,Clean sandstone,0.91,HIGH
+OIL-SYN-007,Barail,775,1376,Shale/Sand alternation,0.94,MODERATE
+OIL-SYN-007,Tipam,1395,2044,Fine to medium sandstone,0.89,HIGH
+OIL-SYN-007,Girujan,2034,2538,Shale-dominant interval,0.93,HIGH
+OIL-SYN-007,Lakwa,2523,3196,Sandstone reservoir,0.93,LOW
+OIL-SYN-007,Nahorkatiya Sand,3210,3675,Clean sandstone,0.87,MODERATE
+OIL-SYN-008,Barail,798,1407,Shale/Sand alternation,0.93,MODERATE
+OIL-SYN-008,Tipam,1374,2028,Fine to medium sandstone,0.87,LOW
+OIL-SYN-008,Girujan,2022,2544,Shale-dominant interval,0.92,MODERATE
+OIL-SYN-008,Lakwa,2537,3199,Sandstone reservoir,0.91,HIGH
+OIL-SYN-008,Nahorkatiya Sand,3182,3370,Clean sandstone,0.9,LOW
+OIL-SYN-009,Barail,776,1391,Shale/Sand alternation,0.86,MODERATE
+OIL-SYN-009,Tipam,1394,2050,Fine to medium sandstone,0.87,HIGH
+OIL-SYN-009,Girujan,2033,2544,Shale-dominant interval,0.92,LOW
+OIL-SYN-009,Lakwa,2536,3197,Sandstone reservoir,0.91,LOW
+OIL-SYN-009,Nahorkatiya Sand,3182,3687,Clean sandstone,0.89,HIGH
+OIL-SYN-010,Barail,793,1384,Shale/Sand alternation,0.91,MODERATE
+OIL-SYN-010,Tipam,1390,2055,Fine to medium sandstone,0.9,MODERATE
+OIL-SYN-010,Girujan,2028,2560,Shale-dominant interval,0.87,MODERATE
+OIL-SYN-010,Lakwa,2526,3184,Sandstone reservoir,0.91,HIGH
+OIL-SYN-010,Nahorkatiya Sand,3181,3683,Clean sandstone,0.91,HIGH
+OIL-SYN-011,Barail,798,1397,Shale/Sand alternation,0.92,HIGH
+OIL-SYN-011,Tipam,1406,2026,Fine to medium sandstone,0.88,LOW
+OIL-SYN-011,Girujan,2059,2569,Shale-dominant interval,0.91,HIGH
+OIL-SYN-011,Lakwa,2522,3181,Sandstone reservoir,0.93,LOW
+OIL-SYN-011,Nahorkatiya Sand,3172,3540,Clean sandstone,0.88,MODERATE
+OIL-SYN-012,Barail,781,1418,Shale/Sand alternation,0.92,HIGH
+OIL-SYN-012,Tipam,1372,2037,Fine to medium sandstone,0.92,MODERATE
+OIL-SYN-012,Girujan,2026,2546,Shale-dominant interval,0.91,LOW
+OIL-SYN-012,Lakwa,2548,3210,Sandstone reservoir,0.9,MODERATE
+OIL-SYN-012,Nahorkatiya Sand,3183,3450,Clean sandstone,0.87,HIGH
+OIL-SYN-013,Barail,808,1404,Shale/Sand alternation,0.92,LOW
+OIL-SYN-013,Tipam,1409,2033,Fine to medium sandstone,0.87,LOW
+OIL-SYN-013,Girujan,2047,2535,Shale-dominant interval,0.94,HIGH
+OIL-SYN-013,Lakwa,2523,3219,Sandstone reservoir,0.87,HIGH
+OIL-SYN-013,Nahorkatiya Sand,3205,3719,Clean sandstone,0.92,HIGH
+OIL-SYN-014,Barail,781,1412,Shale/Sand alternation,0.88,MODERATE
+OIL-SYN-014,Tipam,1383,2058,Fine to medium sandstone,0.89,HIGH
+OIL-SYN-014,Girujan,2031,2540,Shale-dominant interval,0.89,LOW
+OIL-SYN-014,Lakwa,2533,3170,Sandstone reservoir,0.93,MODERATE
+OIL-SYN-015,Barail,792,1381,Shale/Sand alternation,0.94,MODERATE
+OIL-SYN-015,Tipam,1382,2072,Fine to medium sandstone,0.87,HIGH
+OIL-SYN-015,Girujan,2043,2551,Shale-dominant interval,0.92,LOW
+OIL-SYN-015,Lakwa,2558,3200,Sandstone reservoir,0.93,LOW
+OIL-SYN-015,Nahorkatiya Sand,3172,3678,Clean sandstone,0.87,MODERATE
+OIL-SYN-016,Barail,792,1395,Shale/Sand alternation,0.87,HIGH
+OIL-SYN-016,Tipam,1396,2035,Fine to medium sandstone,0.9,LOW
+OIL-SYN-016,Girujan,2028,2554,Shale-dominant interval,0.9,MODERATE
+OIL-SYN-016,Lakwa,2532,3207,Sandstone reservoir,0.92,HIGH
+OIL-SYN-016,Nahorkatiya Sand,3189,3718,Clean sandstone,0.9,LOW
+OIL-SYN-017,Barail,773,1380,Shale/Sand alternation,0.92,LOW
+OIL-SYN-017,Tipam,1384,2045,Fine to medium sandstone,0.92,HIGH
+OIL-SYN-017,Girujan,2035,2530,Shale-dominant interval,0.87,MODERATE
+OIL-SYN-017,Lakwa,2550,3211,Sandstone reservoir,0.92,LOW
+OIL-SYN-017,Nahorkatiya Sand,3197,3722,Clean sandstone,0.92,HIGH
+OIL-SYN-018,Barail,786,1412,Shale/Sand alternation,0.86,LOW
+OIL-SYN-018,Tipam,1408,2055,Fine to medium sandstone,0.92,MODERATE
+OIL-SYN-018,Girujan,2023,2542,Shale-dominant interval,0.87,HIGH
+OIL-SYN-018,Lakwa,2535,3186,Sandstone reservoir,0.89,LOW
+OIL-SYN-018,Nahorkatiya Sand,3204,3698,Clean sandstone,0.88,LOW
+OIL-SYN-ACTIVE-01,Barail,772,1376,Shale/Sand alternation,0.94,MODERATE
+OIL-SYN-ACTIVE-01,Tipam,1404,2025,Fine to medium sandstone,0.89,HIGH
+OIL-SYN-ACTIVE-01,Girujan,2054,2528,Shale-dominant interval,0.87,MODERATE
+OIL-SYN-ACTIVE-01,Lakwa,2531,2860,Sandstone reservoir,0.91,LOW
+OIL-SYN-MH-001,Alibag,0,650,"Shale, occasionally silty, moderately reactive",0.4,MODERATE
+OIL-SYN-MH-001,Mumbai High Limestone,650,1350,"Vuggy, fractured limestone reservoir",0.88,HIGH
+OIL-SYN-MH-001,Bassein,1350,1750,"Limestone, tight to moderately porous",0.65,MODERATE
+OIL-SYN-MH-001,Panna,1750,2050,"Fine to medium sandstone, basal clastic",0.75,MODERATE
+OIL-SYN-MH-002,Alibag,0,700,"Shale, occasionally silty, moderately reactive",0.4,MODERATE
+OIL-SYN-MH-002,Mumbai High Limestone,700,1450,"Vuggy, fractured limestone reservoir",0.88,HIGH
+OIL-SYN-MH-002,Bassein,1450,1850,"Limestone, tight to moderately porous",0.65,MODERATE
+OIL-SYN-MH-002,Panna,1850,2245,"Fine to medium sandstone, basal clastic",0.75,MODERATE
+OIL-SYN-MH-003,Alibag,0,600,"Shale, occasionally silty, moderately reactive",0.4,MODERATE
+OIL-SYN-MH-003,Mumbai High Limestone,600,1300,"Vuggy, fractured limestone reservoir",0.88,HIGH
+OIL-SYN-MH-003,Bassein,1300,1650,"Limestone, tight to moderately porous",0.65,MODERATE
+OIL-SYN-MH-003,Panna,1650,1980,"Fine to medium sandstone, basal clastic",0.75,MODERATE
+OIL-SYN-MH-004,Alibag,0,640,"Shale, occasionally silty, moderately reactive",0.4,MODERATE
+OIL-SYN-MH-004,Mumbai High Limestone,640,1360,"Vuggy, fractured limestone reservoir",0.88,HIGH
+OIL-SYN-MH-004,Bassein,1360,1720,"Limestone, tight to moderately porous",0.65,MODERATE
+OIL-SYN-MH-004,Panna,1720,2075,"Fine to medium sandstone, basal clastic",0.75,MODERATE
+OIL-SYN-MH-005,Alibag,0,720,"Shale, occasionally silty, moderately reactive",0.4,MODERATE
+OIL-SYN-MH-005,Mumbai High Limestone,720,1500,"Vuggy, fractured limestone reservoir",0.88,HIGH
+OIL-SYN-MH-005,Bassein,1500,1920,"Limestone, tight to moderately porous",0.65,MODERATE
+OIL-SYN-MH-005,Panna,1920,2340,"Fine to medium sandstone, basal clastic",0.75,MODERATE
+OIL-SYN-MH-006,Alibag,0,580,"Shale, occasionally silty, moderately reactive",0.4,MODERATE
+OIL-SYN-MH-006,Mumbai High Limestone,580,1250,"Vuggy, fractured limestone reservoir",0.88,HIGH
+OIL-SYN-MH-006,Bassein,1250,1600,"Limestone, tight to moderately porous",0.65,MODERATE
+OIL-SYN-MH-006,Panna,1600,1900,"Fine to medium sandstone, basal clastic",0.75,MODERATE

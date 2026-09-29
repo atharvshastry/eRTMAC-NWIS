@@ -1,0 +1,83 @@
+# NWIS docker compose. This wires up the services this half of the team owns (postgres, ollama,
+# doc-worker/AI service) per tech-stack.md's architecture. NOT run/built in the sandbox this was
+# written in -- no Docker daemon there; see sql/README.md for what was verified another way.
+#
+# Teammates: add `api` (Fastify), `worker` (BullMQ) and `frontend` (React) services alongside these --
+# api/worker should point DATABASE_URL at postgres and NWIS_AI_URL at doc-worker (see README.md's
+# "Talking to this service" section for the doc-worker's endpoints).
+#
+#   docker compose up --build          # first run: builds images, applies schema.sql, loads CSVs
+#   docker compose up                  # subsequent runs
+services:
+  postgres:
+    build: ./docker/postgres
+    environment:
+      POSTGRES_DB: nwis
+      POSTGRES_USER: nwis
+      POSTGRES_PASSWORD: nwis_dev_only
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # Postgres runs every *.sql in this directory, in filename order, ONCE on first init.
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nwis -d nwis"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # Loads data/*.csv into postgres once, after schema.sql has run. Runs once per `docker compose up`
+  # (TRUNCATEs first -- see scripts/load_csv_data.sh -- so re-running is safe but not necessary).
+  csv-loader:
+    build: ./docker/postgres
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATA_DIR: /data
+    volumes:
+      - ./data:/data:ro
+      - ./scripts/load_csv_data.sh:/load_csv_data.sh:ro
+    entrypoint: ["bash", "/load_csv_data.sh", "postgres://nwis:nwis_dev_only@postgres:5432/nwis"]
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    # Pull the model once with: docker compose exec ollama ollama pull qwen2.5:7b-instruct
+    # 7-8B needs ~8GB GPU memory to be responsive -- see README's "Known limits" / hardware note.
+
+  doc-worker:
+    build: .
+    environment:
+      NWIS_OCR: tesseract
+      OLLAMA_HOST: http://ollama:11434
+      # Swap to the Postgres-backed store once app/data.py's Store is wired to the DB (currently
+      # CSV-backed for the demo -- see that file's "swap point" docstring):
+      # DATABASE_URL: postgres://nwis:nwis_dev_only@postgres:5432/nwis
+    ports:
+      - "8001:8001"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # --- teammates add below ---
+  # api:
+  #   build: ../backend          # Fastify + Drizzle
+  #   environment:
+  #     DATABASE_URL: postgres://nwis:nwis_dev_only@postgres:5432/nwis
+  #     NWIS_AI_URL: http://doc-worker:8001
+  #   ports: ["3000:3000"]
+  #   depends_on: [postgres, doc-worker]
+  #
+  # frontend:
+  #   build: ../frontend         # React + Vite
+  #   ports: ["5173:5173"]
+  #   depends_on: [api]
+
+volumes:
+  pgdata:
+  ollama_models:

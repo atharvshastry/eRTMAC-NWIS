@@ -1,0 +1,58 @@
+document_id,well_id,document_type,file_format,file_name,extraction_note,availability
+DOC-001-WCR,OIL-SYN-001,WCR,PDF,OIL-SYN-001_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-001-DDR,OIL-SYN-001,DDR,PDF,OIL-SYN-001_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-001-MUD,OIL-SYN-001,Mud Report,PDF,OIL-SYN-001_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-002-WCR,OIL-SYN-002,WCR,PDF,OIL-SYN-002_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-002-DDR,OIL-SYN-002,DDR,PDF,OIL-SYN-002_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-002-MUD,OIL-SYN-002,Mud Report,PDF,OIL-SYN-002_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-003-WCR,OIL-SYN-003,WCR,PDF,OIL-SYN-003_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-003-DDR,OIL-SYN-003,DDR,PDF,OIL-SYN-003_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-003-MUD,OIL-SYN-003,Mud Report,PDF,OIL-SYN-003_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-004-WCR,OIL-SYN-004,WCR,PDF,OIL-SYN-004_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-004-DDR,OIL-SYN-004,DDR,PDF,OIL-SYN-004_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-004-MUD,OIL-SYN-004,Mud Report,PDF,OIL-SYN-004_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-005-WCR,OIL-SYN-005,WCR,PDF,OIL-SYN-005_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-005-DDR,OIL-SYN-005,DDR,PDF,OIL-SYN-005_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-005-MUD,OIL-SYN-005,Mud Report,PDF,OIL-SYN-005_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-006-WCR,OIL-SYN-006,WCR,PDF,OIL-SYN-006_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-006-DDR,OIL-SYN-006,DDR,PDF,OIL-SYN-006_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-006-MUD,OIL-SYN-006,Mud Report,PDF,OIL-SYN-006_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-007-WCR,OIL-SYN-007,WCR,PDF,OIL-SYN-007_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-007-DDR,OIL-SYN-007,DDR,PDF,OIL-SYN-007_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-007-MUD,OIL-SYN-007,Mud Report,PDF,OIL-SYN-007_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-008-WCR,OIL-SYN-008,WCR,PDF,OIL-SYN-008_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-008-DDR,OIL-SYN-008,DDR,PDF,OIL-SYN-008_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-008-MUD,OIL-SYN-008,Mud Report,PDF,OIL-SYN-008_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-009-WCR,OIL-SYN-009,WCR,PDF,OIL-SYN-009_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-009-DDR,OIL-SYN-009,DDR,PDF,OIL-SYN-009_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-009-MUD,OIL-SYN-009,Mud Report,PDF,OIL-SYN-009_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-010-WCR,OIL-SYN-010,WCR,PDF,OIL-SYN-010_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-010-DDR,OIL-SYN-010,DDR,PDF,OIL-SYN-010_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-010-MUD,OIL-SYN-010,Mud Report,PDF,OIL-SYN-010_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-011-WCR,OIL-SYN-011,WCR,PDF,OIL-SYN-011_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-011-DDR,OIL-SYN-011,DDR,PDF,OIL-SYN-011_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-011-MUD,OIL-SYN-011,Mud Report,PDF,OIL-SYN-011_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-012-WCR,OIL-SYN-012,WCR,PDF,OIL-SYN-012_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-012-DDR,OIL-SYN-012,DDR,PDF,OIL-SYN-012_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-012-MUD,OIL-SYN-012,Mud Report,PDF,OIL-SYN-012_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-013-WCR,OIL-SYN-013,WCR,PDF,OIL-SYN-013_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-013-DDR,OIL-SYN-013,DDR,PDF,OIL-SYN-013_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-013-MUD,OIL-SYN-013,Mud Report,PDF,OIL-SYN-013_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-014-WCR,OIL-SYN-014,WCR,PDF,OIL-SYN-014_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-014-DDR,OIL-SYN-014,DDR,PDF,OIL-SYN-014_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-014-MUD,OIL-SYN-014,Mud Report,PDF,OIL-SYN-014_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-015-WCR,OIL-SYN-015,WCR,PDF,OIL-SYN-015_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-015-DDR,OIL-SYN-015,DDR,PDF,OIL-SYN-015_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-015-MUD,OIL-SYN-015,Mud Report,PDF,OIL-SYN-015_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-016-WCR,OIL-SYN-016,WCR,PDF,OIL-SYN-016_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-016-DDR,OIL-SYN-016,DDR,PDF,OIL-SYN-016_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-016-MUD,OIL-SYN-016,Mud Report,PDF,OIL-SYN-016_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-017-WCR,OIL-SYN-017,WCR,PDF,OIL-SYN-017_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-017-DDR,OIL-SYN-017,DDR,PDF,OIL-SYN-017_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-017-MUD,OIL-SYN-017,Mud Report,PDF,OIL-SYN-017_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-018-WCR,OIL-SYN-018,WCR,PDF,OIL-SYN-018_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC-018-DDR,OIL-SYN-018,DDR,PDF,OIL-SYN-018_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC-018-MUD,OIL-SYN-018,Mud Report,PDF,OIL-SYN-018_Mud_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC--01-WCR,OIL-SYN-ACTIVE-01,WCR,PDF,OIL-SYN-ACTIVE-01_Well_Completion_Report.pdf,Synthetic document metadata,AVAILABLE
+DOC--01-DDR,OIL-SYN-ACTIVE-01,DDR,PDF,OIL-SYN-ACTIVE-01_Daily_Drilling_Reports.zip,Synthetic document metadata,AVAILABLE
+DOC--01-MUD,OIL-SYN-ACTIVE-01,Mud Report,PDF,OIL-SYN-ACTIVE-01_Mud_Reports.zip,Synthetic document metadata,AVAILABLE

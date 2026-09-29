@@ -1,0 +1,119 @@
+ddr_id,well_id,report_date,start_depth_m,end_depth_m,footage_m,primary_activity,hole_section,daily_drilling_hours,status,event_id,reporting_engineer,source_system
+DDR-001-001,OIL-SYN-001,2023-01-10,1000,1173,173,Drilling ahead,12.25 in,76.2,Normal,,Engineer-C,OpenWells + PDF
+DDR-001-002,OIL-SYN-001,2023-01-11,1220,1471,251,POOH,12.25 in,75.9,Critical,EVT-0001,Engineer-C,OpenWells
+DDR-001-003,OIL-SYN-001,2023-01-12,1440,1642,202,Reaming,12.25 in,55.6,Critical,EVT-0001,Engineer-B,Daily Report PDF
+DDR-001-004,OIL-SYN-001,2023-01-13,1660,1895,235,Coring,6.125 in,85.2,NPT,EVT-0001,Engineer-C,OpenWells
+DDR-001-005,OIL-SYN-001,2023-01-14,1880,2060,180,POOH,8.5 in,62.6,Normal,EVT-0002,Engineer-C,Daily Report PDF
+DDR-001-006,OIL-SYN-001,2023-01-15,2100,2312,212,Well control check,6.125 in,76.1,NPT,EVT-0002,Engineer-C,Daily Report PDF
+DDR-002-001,OIL-SYN-002,2023-01-27,1000,1148,148,Well control check,8.5 in,79.0,Normal,,Engineer-A,Daily Report PDF
+DDR-002-002,OIL-SYN-002,2023-01-28,1220,1452,232,Drilling ahead,8.5 in,69.5,Normal,,Engineer-B,Daily Report PDF
+DDR-002-003,OIL-SYN-002,2023-01-29,1440,1692,252,Circulating,8.5 in,87.5,Normal,EVT-0003,Engineer-B,Daily Report PDF
+DDR-002-004,OIL-SYN-002,2023-01-30,1660,1853,193,BHA change,6.125 in,65.8,Critical,EVT-0003,Engineer-B,Daily Report PDF
+DDR-002-005,OIL-SYN-002,2023-01-31,1880,2093,213,Well control check,8.5 in,90.8,Normal,EVT-0003,Engineer-B,OpenWells
+DDR-002-006,OIL-SYN-002,2023-02-01,2100,2296,196,Circulating,12.25 in,80.6,Watch,EVT-0004,Engineer-A,OpenWells
+DDR-003-001,OIL-SYN-003,2023-02-13,1000,1186,186,Reaming,12.25 in,53.7,Normal,,Engineer-C,Daily Report PDF
+DDR-003-002,OIL-SYN-003,2023-02-14,1220,1378,158,POOH,6.125 in,49.2,Normal,,Engineer-B,Daily Report PDF
+DDR-003-003,OIL-SYN-003,2023-02-15,1440,1591,151,Well control check,8.5 in,72.2,Normal,,Engineer-C,Daily Report PDF
+DDR-003-004,OIL-SYN-003,2023-02-16,1660,1906,246,RIH,6.125 in,71.0,Watch,EVT-0006,Engineer-B,OpenWells + PDF
+DDR-003-005,OIL-SYN-003,2023-02-17,1880,2065,185,Drilling ahead,8.5 in,51.2,Normal,EVT-0006,Engineer-B,OpenWells
+DDR-003-006,OIL-SYN-003,2023-02-18,2100,2341,241,POOH,8.5 in,49.8,Critical,EVT-0007,Engineer-A,OpenWells
+DDR-004-001,OIL-SYN-004,2023-03-02,1000,1178,178,Well control check,12.25 in,82.8,Normal,,Engineer-A,OpenWells + PDF
+DDR-004-002,OIL-SYN-004,2023-03-03,1220,1426,206,Drilling ahead,8.5 in,47.7,Normal,,Engineer-B,Daily Report PDF
+DDR-004-003,OIL-SYN-004,2023-03-04,1440,1613,173,Coring,12.25 in,47.1,Normal,,Engineer-C,Daily Report PDF
+DDR-004-004,OIL-SYN-004,2023-03-05,1660,1831,171,POOH,8.5 in,74.2,Normal,,Engineer-A,OpenWells + PDF
+DDR-004-005,OIL-SYN-004,2023-03-06,1880,2107,227,Circulating,8.5 in,76.3,Watch,EVT-0010,Engineer-C,Daily Report PDF
+DDR-004-006,OIL-SYN-004,2023-03-07,2100,2270,170,BHA change,6.125 in,89.4,Watch,EVT-0010,Engineer-A,OpenWells
+DDR-005-001,OIL-SYN-005,2023-03-19,1000,1177,177,Cementing,12.25 in,91.9,Normal,,Engineer-A,Daily Report PDF
+DDR-005-002,OIL-SYN-005,2023-03-20,1220,1394,174,Cementing,8.5 in,85.6,Normal,,Engineer-C,OpenWells
+DDR-005-003,OIL-SYN-005,2023-03-21,1440,1636,196,Well control check,8.5 in,51.4,Normal,,Engineer-B,Daily Report PDF
+DDR-005-004,OIL-SYN-005,2023-03-22,1660,1822,162,BHA change,6.125 in,76.2,Normal,,Engineer-A,OpenWells + PDF
+DDR-005-005,OIL-SYN-005,2023-03-23,1880,2023,143,Coring,6.125 in,73.8,Normal,,Engineer-A,Daily Report PDF
+DDR-005-006,OIL-SYN-005,2023-03-24,2100,2328,228,RIH,6.125 in,90.3,Critical,EVT-0012,Engineer-B,OpenWells
+DDR-006-001,OIL-SYN-006,2023-04-05,1000,1203,203,Circulating,12.25 in,80.3,Normal,,Engineer-B,Daily Report PDF
+DDR-006-002,OIL-SYN-006,2023-04-06,1220,1431,211,Circulating,12.25 in,61.8,Normal,,Engineer-A,OpenWells + PDF
+DDR-006-003,OIL-SYN-006,2023-04-07,1440,1661,221,POOH,6.125 in,58.2,Normal,,Engineer-C,Daily Report PDF
+DDR-006-004,OIL-SYN-006,2023-04-08,1660,1857,197,POOH,6.125 in,78.5,Normal,,Engineer-C,OpenWells + PDF
+DDR-006-005,OIL-SYN-006,2023-04-09,1880,2040,160,RIH,8.5 in,71.5,Normal,,Engineer-B,OpenWells
+DDR-006-006,OIL-SYN-006,2023-04-10,2100,2242,142,BHA change,6.125 in,61.7,Normal,,Engineer-B,OpenWells
+DDR-007-001,OIL-SYN-007,2023-04-22,1000,1238,238,Well control check,12.25 in,45.3,Normal,,Engineer-A,OpenWells + PDF
+DDR-007-002,OIL-SYN-007,2023-04-23,1220,1373,153,Well control check,6.125 in,86.2,Normal,,Engineer-A,Daily Report PDF
+DDR-007-003,OIL-SYN-007,2023-04-24,1440,1591,151,POOH,6.125 in,64.5,Normal,EVT-0019,Engineer-B,Daily Report PDF
+DDR-007-004,OIL-SYN-007,2023-04-25,1660,1823,163,POOH,6.125 in,56.1,Watch,EVT-0019,Engineer-B,Daily Report PDF
+DDR-007-005,OIL-SYN-007,2023-04-26,1880,2040,160,Drilling ahead,6.125 in,74.8,Critical,EVT-0020,Engineer-B,OpenWells + PDF
+DDR-007-006,OIL-SYN-007,2023-04-27,2100,2306,206,BHA change,8.5 in,58.4,Normal,,Engineer-A,OpenWells
+DDR-008-001,OIL-SYN-008,2023-05-09,1000,1170,170,Cementing,12.25 in,72.4,Normal,,Engineer-B,Daily Report PDF
+DDR-008-002,OIL-SYN-008,2023-05-10,1220,1443,223,Circulating,8.5 in,80.2,Normal,,Engineer-B,Daily Report PDF
+DDR-008-003,OIL-SYN-008,2023-05-11,1440,1695,255,Cementing,12.25 in,85.2,Normal,EVT-0021,Engineer-C,OpenWells
+DDR-008-004,OIL-SYN-008,2023-05-12,1660,1811,151,RIH,8.5 in,75.1,NPT,EVT-0021,Engineer-C,Daily Report PDF
+DDR-008-005,OIL-SYN-008,2023-05-13,1880,2109,229,Circulating,12.25 in,70.6,Critical,EVT-0022,Engineer-C,OpenWells
+DDR-008-006,OIL-SYN-008,2023-05-14,2100,2286,186,Drilling ahead,12.25 in,84.8,Watch,EVT-0022,Engineer-A,OpenWells
+DDR-009-001,OIL-SYN-009,2023-05-26,1000,1198,198,BHA change,8.5 in,77.4,Normal,,Engineer-C,OpenWells
+DDR-009-002,OIL-SYN-009,2023-05-27,1220,1468,248,Coring,6.125 in,87.4,Normal,,Engineer-A,Daily Report PDF
+DDR-009-003,OIL-SYN-009,2023-05-28,1440,1601,161,Drilling ahead,6.125 in,66.8,Normal,,Engineer-B,OpenWells
+DDR-009-004,OIL-SYN-009,2023-05-29,1660,1896,236,Circulating,12.25 in,85.5,NPT,EVT-0024,Engineer-A,OpenWells + PDF
+DDR-009-005,OIL-SYN-009,2023-05-30,1880,2113,233,RIH,6.125 in,76.6,Normal,EVT-0024,Engineer-C,Daily Report PDF
+DDR-009-006,OIL-SYN-009,2023-05-31,2100,2346,246,Cementing,8.5 in,48.6,Watch,EVT-0025,Engineer-C,OpenWells
+DDR-010-001,OIL-SYN-010,2023-06-12,1000,1250,250,Well control check,12.25 in,57.2,Normal,,Engineer-A,Daily Report PDF
+DDR-010-002,OIL-SYN-010,2023-06-13,1220,1400,180,Reaming,8.5 in,78.9,Normal,,Engineer-A,Daily Report PDF
+DDR-010-003,OIL-SYN-010,2023-06-14,1440,1581,141,POOH,12.25 in,83.3,Normal,,Engineer-C,OpenWells
+DDR-010-004,OIL-SYN-010,2023-06-15,1660,1893,233,Reaming,8.5 in,70.8,Normal,,Engineer-A,OpenWells
+DDR-010-005,OIL-SYN-010,2023-06-16,1880,2122,242,Coring,8.5 in,70.9,Normal,EVT-0028,Engineer-B,OpenWells + PDF
+DDR-010-006,OIL-SYN-010,2023-06-17,2100,2322,222,POOH,8.5 in,83.7,Normal,EVT-0028,Engineer-C,OpenWells
+DDR-011-001,OIL-SYN-011,2023-06-29,1000,1248,248,Circulating,12.25 in,80.3,Normal,,Engineer-A,OpenWells
+DDR-011-002,OIL-SYN-011,2023-06-30,1220,1415,195,Cementing,12.25 in,85.7,Normal,,Engineer-C,OpenWells + PDF
+DDR-011-003,OIL-SYN-011,2023-07-01,1440,1659,219,RIH,8.5 in,58.8,Normal,,Engineer-A,OpenWells
+DDR-011-004,OIL-SYN-011,2023-07-02,1660,1814,154,Cementing,8.5 in,60.4,Normal,,Engineer-C,OpenWells
+DDR-011-005,OIL-SYN-011,2023-07-03,1880,2046,166,Reaming,8.5 in,78.3,Normal,,Engineer-A,Daily Report PDF
+DDR-011-006,OIL-SYN-011,2023-07-04,2100,2280,180,Reaming,8.5 in,77.1,Watch,EVT-0030,Engineer-C,OpenWells
+DDR-012-001,OIL-SYN-012,2023-07-16,1000,1228,228,Coring,8.5 in,76.2,Normal,,Engineer-C,Daily Report PDF
+DDR-012-002,OIL-SYN-012,2023-07-17,1220,1429,209,Circulating,8.5 in,78.7,Normal,,Engineer-C,OpenWells
+DDR-012-003,OIL-SYN-012,2023-07-18,1440,1662,222,Coring,8.5 in,84.2,Normal,,Engineer-C,OpenWells
+DDR-012-004,OIL-SYN-012,2023-07-19,1660,1847,187,BHA change,6.125 in,78.0,Normal,,Engineer-A,OpenWells + PDF
+DDR-012-005,OIL-SYN-012,2023-07-20,1880,2081,201,Drilling ahead,12.25 in,65.7,Normal,,Engineer-C,OpenWells
+DDR-012-006,OIL-SYN-012,2023-07-21,2100,2304,204,RIH,8.5 in,56.7,Normal,EVT-0033,Engineer-C,OpenWells
+DDR-013-001,OIL-SYN-013,2023-08-02,1000,1190,190,Coring,12.25 in,55.6,Normal,,Engineer-B,Daily Report PDF
+DDR-013-002,OIL-SYN-013,2023-08-03,1220,1392,172,Coring,8.5 in,80.4,Normal,,Engineer-B,OpenWells
+DDR-013-003,OIL-SYN-013,2023-08-04,1440,1689,249,Drilling ahead,12.25 in,66.8,Watch,EVT-0037,Engineer-B,OpenWells + PDF
+DDR-013-004,OIL-SYN-013,2023-08-05,1660,1845,185,POOH,6.125 in,81.1,Critical,EVT-0037,Engineer-B,Daily Report PDF
+DDR-013-005,OIL-SYN-013,2023-08-06,1880,2032,152,Well control check,8.5 in,77.4,NPT,EVT-0038,Engineer-A,OpenWells + PDF
+DDR-013-006,OIL-SYN-013,2023-08-07,2100,2303,203,Drilling ahead,8.5 in,82.2,Normal,EVT-0038,Engineer-C,OpenWells + PDF
+DDR-014-001,OIL-SYN-014,2023-08-19,1000,1151,151,Coring,12.25 in,59.0,Normal,,Engineer-A,OpenWells
+DDR-014-002,OIL-SYN-014,2023-08-20,1220,1374,154,Reaming,6.125 in,86.8,Normal,,Engineer-A,OpenWells
+DDR-014-003,OIL-SYN-014,2023-08-21,1440,1687,247,Cementing,6.125 in,65.4,Critical,EVT-0039,Engineer-B,OpenWells
+DDR-014-004,OIL-SYN-014,2023-08-22,1660,1803,143,POOH,6.125 in,75.6,NPT,EVT-0039,Engineer-C,OpenWells
+DDR-014-005,OIL-SYN-014,2023-08-23,1880,2076,196,POOH,12.25 in,59.6,Watch,EVT-0040,Engineer-A,OpenWells + PDF
+DDR-014-006,OIL-SYN-014,2023-08-24,2100,2324,224,Well control check,8.5 in,49.1,Critical,EVT-0040,Engineer-B,OpenWells
+DDR-015-001,OIL-SYN-015,2023-09-05,1000,1158,158,BHA change,12.25 in,61.8,Normal,,Engineer-A,Daily Report PDF
+DDR-015-002,OIL-SYN-015,2023-09-06,1220,1406,186,Drilling ahead,6.125 in,85.8,Normal,,Engineer-B,OpenWells
+DDR-015-003,OIL-SYN-015,2023-09-07,1440,1673,233,Well control check,6.125 in,54.9,Normal,,Engineer-B,OpenWells
+DDR-015-004,OIL-SYN-015,2023-09-08,1660,1823,163,Drilling ahead,6.125 in,66.6,Critical,EVT-0042,Engineer-C,OpenWells + PDF
+DDR-015-005,OIL-SYN-015,2023-09-09,1880,2087,207,Reaming,6.125 in,90.4,Watch,EVT-0042,Engineer-A,Daily Report PDF
+DDR-015-006,OIL-SYN-015,2023-09-10,2100,2351,251,Drilling ahead,8.5 in,89.2,Watch,EVT-0043,Engineer-C,OpenWells
+DDR-016-001,OIL-SYN-016,2023-09-22,1000,1205,205,Coring,12.25 in,52.1,Normal,,Engineer-C,OpenWells
+DDR-016-002,OIL-SYN-016,2023-09-23,1220,1431,211,Circulating,8.5 in,62.8,Normal,,Engineer-C,OpenWells + PDF
+DDR-016-003,OIL-SYN-016,2023-09-24,1440,1593,153,Cementing,6.125 in,86.9,Normal,,Engineer-A,OpenWells
+DDR-016-004,OIL-SYN-016,2023-09-25,1660,1918,258,BHA change,8.5 in,57.9,Normal,,Engineer-C,Daily Report PDF
+DDR-016-005,OIL-SYN-016,2023-09-26,1880,2068,188,Reaming,8.5 in,61.0,Critical,EVT-0046,Engineer-A,OpenWells
+DDR-016-006,OIL-SYN-016,2023-09-27,2100,2247,147,BHA change,8.5 in,87.0,Normal,EVT-0046,Engineer-C,Daily Report PDF
+DDR-017-001,OIL-SYN-017,2023-10-09,1000,1222,222,Cementing,6.125 in,91.2,Normal,,Engineer-A,OpenWells + PDF
+DDR-017-002,OIL-SYN-017,2023-10-10,1220,1454,234,Coring,8.5 in,71.5,Normal,,Engineer-C,Daily Report PDF
+DDR-017-003,OIL-SYN-017,2023-10-11,1440,1586,146,Circulating,6.125 in,88.0,Normal,,Engineer-A,Daily Report PDF
+DDR-017-004,OIL-SYN-017,2023-10-12,1660,1800,140,POOH,8.5 in,60.7,Normal,,Engineer-C,Daily Report PDF
+DDR-017-005,OIL-SYN-017,2023-10-13,1880,2112,232,Cementing,6.125 in,57.2,Normal,EVT-0048,Engineer-A,OpenWells + PDF
+DDR-017-006,OIL-SYN-017,2023-10-14,2100,2299,199,Circulating,8.5 in,68.8,Watch,EVT-0048,Engineer-A,Daily Report PDF
+DDR-018-001,OIL-SYN-018,2023-10-26,1000,1229,229,BHA change,8.5 in,86.6,Normal,,Engineer-B,Daily Report PDF
+DDR-018-002,OIL-SYN-018,2023-10-27,1220,1384,164,Well control check,12.25 in,79.6,Normal,,Engineer-C,Daily Report PDF
+DDR-018-003,OIL-SYN-018,2023-10-28,1440,1626,186,Cementing,12.25 in,71.2,Normal,,Engineer-A,OpenWells
+DDR-018-004,OIL-SYN-018,2023-10-29,1660,1865,205,Coring,8.5 in,49.4,Normal,,Engineer-B,OpenWells
+DDR-018-005,OIL-SYN-018,2023-10-30,1880,2058,178,Circulating,12.25 in,67.0,Normal,,Engineer-C,OpenWells
+DDR-018-006,OIL-SYN-018,2023-10-31,2100,2289,189,BHA change,8.5 in,51.2,Normal,,Engineer-A,OpenWells
+DDR--01-001,OIL-SYN-ACTIVE-01,2026-09-18,1000,1209,209,Circulating,8.5 in,86.1,Normal,,Engineer-A,OpenWells
+DDR--01-002,OIL-SYN-ACTIVE-01,2026-09-19,1220,1391,171,Cementing,6.125 in,71.7,Normal,,Engineer-B,Daily Report PDF
+DDR--01-003,OIL-SYN-ACTIVE-01,2026-09-20,1440,1662,222,Circulating,12.25 in,81.9,Normal,,Engineer-C,OpenWells + PDF
+DDR--01-004,OIL-SYN-ACTIVE-01,2026-09-21,1660,1864,204,Reaming,12.25 in,57.2,Normal,,Engineer-A,OpenWells
+DDR--01-005,OIL-SYN-ACTIVE-01,2026-09-22,1880,2135,255,Well control check,12.25 in,86.5,Normal,,Engineer-A,Daily Report PDF
+DDR--01-006,OIL-SYN-ACTIVE-01,2026-09-23,2100,2322,222,Cementing,12.25 in,90.5,Normal,,Engineer-B,OpenWells + PDF
+DDR--01-007,OIL-SYN-ACTIVE-01,2026-09-24,2320,2481,161,Well control check,8.5 in,72.3,Normal,,Engineer-A,Daily Report PDF
+DDR--01-008,OIL-SYN-ACTIVE-01,2026-09-25,2540,2719,179,Cementing,12.25 in,74.7,Normal,,Engineer-C,Daily Report PDF
+DDR--01-009,OIL-SYN-ACTIVE-01,2026-09-26,2760,2860,100,Well control check,12.25 in,91.6,Normal,,Engineer-A,Daily Report PDF
+DDR--01-010,OIL-SYN-ACTIVE-01,2026-09-27,2980,2860,-120,BHA change,8.5 in,86.6,Normal,,Engineer-B,OpenWells + PDF

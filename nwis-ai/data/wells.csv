@@ -1,0 +1,26 @@
+well_id,well_name,field,asset,rig_name,spud_date,rig_release_date,surface_lat,surface_lon,kb_elev_m,ground_elev_m,planned_td_m,actual_td_m,well_type,well_status,current_hole_section,data_status
+OIL-SYN-001,SYN-Moran-01,Upper Assam Basin - Moran,OIL Synthetic Demonstration Asset,Rig-01,2023-01-10,2023-02-13,27.711876,95.627493,112.0,109.0,3700,3700,Exploratory,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-002,SYN-Duliajan-02,Upper Assam Basin - Duliajan,OIL Synthetic Demonstration Asset,Rig-02,2023-01-27,2023-02-25,27.324729,95.846883,112.0,109.0,3200,3245,Development,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-003,SYN-Naharkatiya-03,Assam Shelf - Naharkatiya,OIL Synthetic Demonstration Asset,Rig-03,2023-02-13,2023-03-19,27.428348,95.332392,112.0,109.0,4200,4245,Development,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-004,SYN-Moran-04,Upper Assam Basin - Moran,OIL Synthetic Demonstration Asset,Rig-04,2023-03-02,2023-04-23,27.610292,95.762894,112.0,109.0,3450,3495,Exploratory,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-005,SYN-Duliajan-05,Upper Assam Basin - Duliajan,OIL Synthetic Demonstration Asset,Rig-01,2023-03-19,2023-04-25,27.249375,95.520178,112.0,109.0,3950,3995,Development,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-006,SYN-Naharkatiya-06,Assam Shelf - Naharkatiya,OIL Synthetic Demonstration Asset,Rig-02,2023-04-05,2023-05-19,27.618418,95.505151,112.0,109.0,3450,3370,Development,COMPLETED,12.25 in,HISTORICAL
+OIL-SYN-007,SYN-Moran-07,Upper Assam Basin - Moran,OIL Synthetic Demonstration Asset,Rig-03,2023-04-22,2023-05-22,27.354717,95.768854,112.0,109.0,4200,4170,Exploratory,COMPLETED,8.5 in,HISTORICAL
+OIL-SYN-008,SYN-Duliajan-08,Upper Assam Basin - Duliajan,OIL Synthetic Demonstration Asset,Rig-04,2023-05-09,2023-06-18,27.332136,95.466394,112.0,109.0,3450,3370,Development,COMPLETED,8.5 in,HISTORICAL
+OIL-SYN-009,SYN-Naharkatiya-09,Assam Shelf - Naharkatiya,OIL Synthetic Demonstration Asset,Rig-01,2023-05-26,2023-06-19,27.586093,95.646546,112.0,109.0,3700,3745,Development,COMPLETED,8.5 in,HISTORICAL
+OIL-SYN-010,SYN-Moran-10,Upper Assam Basin - Moran,OIL Synthetic Demonstration Asset,Rig-02,2023-06-12,2023-07-09,27.344897,95.696826,112.0,109.0,3950,4040,Exploratory,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-011,SYN-Duliajan-11,Upper Assam Basin - Duliajan,OIL Synthetic Demonstration Asset,Rig-03,2023-06-29,2023-07-24,27.473582,95.466955,112.0,109.0,3450,3540,Development,COMPLETED,8.5 in,HISTORICAL
+OIL-SYN-012,SYN-Naharkatiya-12,Assam Shelf - Naharkatiya,OIL Synthetic Demonstration Asset,Rig-04,2023-07-16,2023-08-17,27.475018,95.707465,112.0,109.0,3450,3450,Development,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-013,SYN-Moran-13,Upper Assam Basin - Moran,OIL Synthetic Demonstration Asset,Rig-01,2023-08-02,2023-09-11,27.358750,95.578901,112.0,109.0,3950,3995,Exploratory,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-014,SYN-Duliajan-14,Upper Assam Basin - Duliajan,OIL Synthetic Demonstration Asset,Rig-02,2023-08-19,2023-09-30,27.511101,95.564192,112.0,109.0,3200,3170,Development,COMPLETED,12.25 in,HISTORICAL
+OIL-SYN-015,SYN-Naharkatiya-15,Assam Shelf - Naharkatiya,OIL Synthetic Demonstration Asset,Rig-03,2023-09-05,2023-09-29,27.406440,95.647848,112.0,109.0,3700,3700,Development,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-016,SYN-Moran-16,Upper Assam Basin - Moran,OIL Synthetic Demonstration Asset,Rig-04,2023-09-22,2023-11-13,27.440833,95.549905,112.0,109.0,3950,3920,Exploratory,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-017,SYN-Duliajan-17,Upper Assam Basin - Duliajan,OIL Synthetic Demonstration Asset,Rig-01,2023-10-09,2023-11-13,27.468480,95.612684,112.0,109.0,4200,4200,Development,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-018,SYN-Naharkatiya-18,Assam Shelf - Naharkatiya,OIL Synthetic Demonstration Asset,Rig-02,2023-10-26,2023-12-06,27.431833,95.597746,112.0,109.0,3950,3995,Development,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-ACTIVE-01,SYN-Moran-19,Upper Assam Basin - Moran,OIL Synthetic Demonstration Asset,Rig-DEM-01,2023-11-12,,27.445018,95.598059,112.0,109.0,3650,2860,Exploratory,DRILLING,8.5 in,ACTIVE
+OIL-SYN-MH-001,SYN-MumbaiHigh-01,Mumbai Offshore Basin - Mumbai High North,OIL Synthetic Demonstration Asset,Sagar Vijay,2023-11-20,2023-12-18,19.4820,71.4310,28.0,0.0,2050,2050,Development,COMPLETED,8.5 in,HISTORICAL
+OIL-SYN-MH-002,SYN-MumbaiHigh-02,Mumbai Offshore Basin - Mumbai High North,OIL Synthetic Demonstration Asset,Sagar Samrat,2023-12-05,2024-01-02,19.4955,71.4185,27.5,0.0,2200,2245,Development,COMPLETED,8.5 in,HISTORICAL
+OIL-SYN-MH-003,SYN-MumbaiHigh-03,Mumbai Offshore Basin - Mumbai High South,OIL Synthetic Demonstration Asset,Sagar Bhushan,2023-12-22,2024-01-25,19.3705,71.5020,29.0,0.0,1950,1980,Exploratory,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-MH-004,SYN-MumbaiHigh-04,Mumbai Offshore Basin - Mumbai High South,OIL Synthetic Demonstration Asset,Sagar Vijay,2024-01-14,2024-02-10,19.3560,71.4890,28.5,0.0,2100,2075,Development,COMPLETED,8.5 in,HISTORICAL
+OIL-SYN-MH-005,SYN-MumbaiHigh-05,Mumbai Offshore Basin - Mumbai High North,OIL Synthetic Demonstration Asset,Sagar Samrat,2024-02-02,2024-03-05,19.5090,71.4460,27.0,0.0,2300,2340,Exploratory,COMPLETED,6.125 in,HISTORICAL
+OIL-SYN-MH-006,SYN-MumbaiHigh-06,Mumbai Offshore Basin - Mumbai High South,OIL Synthetic Demonstration Asset,Sagar Bhushan,2024-02-20,2024-03-22,19.3890,71.5145,28.0,0.0,1900,1900,Development,COMPLETED,8.5 in,HISTORICAL

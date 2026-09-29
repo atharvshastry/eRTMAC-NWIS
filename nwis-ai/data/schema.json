@@ -1,0 +1,80 @@
+{
+  "name": "PS 26121 OIL eRTMAC-NWIS Synthetic Dataset",
+  "status": "synthetic",
+  "notes": [
+    "Schema is aligned to PS 26121 and public OIL documentation; it is not an exact proprietary OIL extract.",
+    "OIL public tender documentation indicates WITSML for historical drilling data and OpenWells for daily operations data."
+  ],
+  "tables": {
+    "WELLS": {
+      "purpose": "Well master and location metadata",
+      "primary_key": "well_id",
+      "notes": "Base entity for all datasets"
+    },
+    "TRAJECTORY": {
+      "purpose": "Survey stations / directional profile",
+      "primary_key": "well_id + md_m",
+      "notes": "Use for offset geometry and 3D well path"
+    },
+    "FORMATION_LOG": {
+      "purpose": "Formation intervals by depth",
+      "primary_key": "well_id + formation",
+      "notes": "Correlate events to geological intervals"
+    },
+    "ERTMAC_REALTIME": {
+      "purpose": "Synthetic real-time drilling & mud logging telemetry",
+      "primary_key": "timestamp + well_id",
+      "notes": "Modeled on WITSML-style time/depth data"
+    },
+    "DDR_DAILY": {
+      "purpose": "Daily drilling operational summary",
+      "primary_key": "ddr_id",
+      "notes": "Daily depth progress and operational activity"
+    },
+    "WCR_SUMMARY": {
+      "purpose": "Well completion / end-of-well summary",
+      "primary_key": "wcr_id",
+      "notes": "Aggregated incident and completion statistics"
+    },
+    "OPERATIONAL_EVENTS": {
+      "purpose": "Historical incidents and lessons learned",
+      "primary_key": "event_id",
+      "notes": "Training/knowledge labels for risk models"
+    },
+    "MUD_REPORT": {
+      "purpose": "Daily mud properties",
+      "primary_key": "mud_report_id",
+      "notes": "Mud weight, rheology, fluid-loss and treatment context"
+    },
+    "CASING_CEMENT": {
+      "purpose": "Casing and cement job records",
+      "primary_key": "casing_job_id",
+      "notes": "Depth, grade, cement outcome"
+    },
+    "BHA_BIT": {
+      "purpose": "BHA / bit run records",
+      "primary_key": "bha_id",
+      "notes": "Run performance and tool configuration"
+    },
+    "DOCUMENTS": {
+      "purpose": "Document inventory",
+      "primary_key": "document_id",
+      "notes": "Pointers to WCR/DDR/mud report artifacts"
+    },
+    "NLP_SOURCE_TEXT": {
+      "purpose": "Synthetic report excerpts for NLP",
+      "primary_key": "text_id",
+      "notes": "Use for extraction / RAG / entity-relation demos"
+    },
+    "RISK_LABELS": {
+      "purpose": "Supervised-learning target labels",
+      "primary_key": "event_id + horizon_m",
+      "notes": "Synthetic labels for risk-window prediction"
+    },
+    "OFFSET_RELATIONS": {
+      "purpose": "Active-to-historical well relevance",
+      "primary_key": "active_well_id + offset_well_id",
+      "notes": "Distance + shared field/formation relevance"
+    }
+  }
+}
