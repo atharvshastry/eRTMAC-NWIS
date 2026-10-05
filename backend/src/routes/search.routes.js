@@ -8,7 +8,6 @@
  */
 const { aiGet } = require("../config/aiService");
 const { toDemoId, toRealId } = require("../data/wellIdMap");
-const { isOnTopicQuestion } = require("../utils/chatbotTopicGuard");
 const { eventTypeToTitle, eventTypeToEnum } = require("../data/eventLabels");
 
 function escapeRegExp(s) {
@@ -71,15 +70,6 @@ async function searchRoutes(app) {
   app.post("/api/ai/query", async (request, reply) => {
     const { prompt, wellId } = request.body || {};
     if (!prompt || !prompt.trim()) return reply.code(400).send({ success: false, message: "prompt is required" });
-    // Server-side defense in depth: the chatbot widget already declines off-topic questions
-    // locally, but this route is a public API too -- keep it scoped even for direct callers.
-    if (!isOnTopicQuestion(prompt)) {
-      return {
-        answer:
-          "I'm scoped to drilling and well-related questions for eRTMAC-NWIS -- formations, casing, historical events, risk zones, offset wells, and drilling parameters. I can't help with anything outside that.",
-        sources: [],
-      };
-    }
     try {
       // wellId lets the floating chatbot scope an answer to whichever well the person is
       // currently looking at (e.g. asked from the Well Intelligence page); toRealId()
@@ -93,17 +83,27 @@ async function searchRoutes(app) {
           // unknown wellId -- ignore the filter rather than failing the whole query
         }
       }
-      // /search/answer can invoke Ollama synthesis, which search.py gives up to 30s before it
-      // degrades to plain search results (see app/search.py's answer()). The AI-service client's
-      // default timeout is only 8s (config/aiService.js), which was aborting this specific call --
-      // and therefore the whole chatbot response -- well before Ollama had a chance to finish.
-      const result = await aiGet("/search/answer", params, 35000);
-      // When a real synthesized answer comes back, the LLM was given every retrieved hit and may
-      // cite any of them by number (see search.py's _ANSWER_SYSTEM_PROMPT) -- so the full hit list
-      // is the right "sources" set here.
+      // /search/answer always tries Ollama now, even with zero dataset hits (general-knowledge
+      // fallback -- see app/search.py's answer()), giving it up to 35s before it degrades to
+      // plain search results or a not-found note. Sized (see search.py's answer() for the full
+      // measurement) to clear this machine's WORST case for a well-context answer -- a maximally
+      // long one at the num_predict cap, ~29s of real decode+prefill work at this hardware's
+      // measured ~4.4 tokens/sec -- not just a typical-case answer, so an unusually chatty response
+      // doesn't needlessly fall back when it would have finished a few seconds later. Kept with
+      // real margin under the frontend's own client timeout (aiApi.js) so a live demo never looks
+      // hung -- a prior, longer timeout chain (45s/50s/55s) made the chat feel broken by making
+      // people wait through a near-minute of silence before it gave up; this one is deliberately
+      // tighter, with just enough margin over the measured worst case above it.
+      const result = await aiGet("/search/answer", params, 36000);
+      // When a real synthesized answer comes back, it's either grounded (the LLM was given every
+      // retrieved hit and may cite any of them by number -- see search.py's _GROUNDED_SYSTEM_PROMPT)
+      // or a general-knowledge answer with no dataset hits behind it (result.grounded === false).
+      // Sources are only ever built from real hits, so an ungrounded answer naturally gets none --
+      // the UI uses `grounded` to label the two cases honestly instead of implying every answer
+      // traces back to an eRTMAC drilling record.
       if (result.answer) {
         const sources = (result.hits || []).map((h) => `${h.source_type} ${h.source_id} (well ${h.well_id})`);
-        return { answer: result.answer, sources };
+        return { answer: result.answer, sources, grounded: !!result.grounded };
       }
       // No LLM synthesis: only the top 3 hits are actually shown in the bulleted answer below, so
       // "sources" must be built from that SAME slice -- previously it listed every retrieved hit

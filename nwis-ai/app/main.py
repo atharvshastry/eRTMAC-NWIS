@@ -13,7 +13,7 @@ from .parser import parse_pdf
 from .risk import AlertTracker, assess, set_thresholds
 from .schemas import ParseResponse
 from .search import answer as rag_answer
-from .search import get_corpus
+from .search import get_corpus, warm_ollama
 from .search import search as run_search
 from .whatif import assess_whatif
 from .backtest import after_action_report
@@ -38,6 +38,12 @@ async def lifespan(app: FastAPI):
     # that cost at boot means the first real document a user uploads hits an already-warm engine.
     engine, reason = get_engine()
     print(f"[startup] OCR engine ready: {engine.name if engine else 'none'} ({reason or 'ok'})")
+
+    # Same reasoning as the OCR warm-up above, for the same failure shape: load the chat model
+    # into Ollama now rather than on the first real chatbot question, and ask Ollama to hold it
+    # resident for the rest of the demo (see search.warm_ollama's docstring for how this was
+    # confirmed live -- a cold model was the actual cause of answers silently failing).
+    warm_ollama()
 
     yield
 

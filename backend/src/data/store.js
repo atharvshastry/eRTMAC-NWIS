@@ -43,9 +43,29 @@ function csvEscapeField(value) {
   return s;
 }
 
+// Detects the line ending already used by an existing CSV file so an appended row matches it --
+// without this, a file saved with CRLF (e.g. by a Windows-run Python seed script) combined with a
+// hardcoded "\n" append produced a real, repeatable bug: csv-parse locks onto the record delimiter
+// (CRLF vs LF) from the very first line it sees, so once that first line is CRLF, every later LF-only
+// appended row fails to read as a separate record and gets merged into one garbled record instead
+// (hit in practice on well_notes.csv once real notes were added through the Team & Well Notes
+// feature -- see the fix note in the data file's git history / project doc). Falls back to "\n" for
+// a file that doesn't exist yet or has no newline yet (nothing to match).
+function detectLineEnding(filePath) {
+  try {
+    const buf = fs.readFileSync(filePath);
+    const idx = buf.indexOf(0x0a); // "\n"
+    if (idx > 0 && buf[idx - 1] === 0x0d) return "\r\n";
+    return "\n";
+  } catch {
+    return "\n";
+  }
+}
+
 function appendCsvRow(name, values) {
   const filePath = path.join(DATA_DIR, `${name}.csv`);
-  const line = values.map(csvEscapeField).join(",") + "\n";
+  const eol = detectLineEnding(filePath);
+  const line = values.map(csvEscapeField).join(",") + eol;
   fs.appendFileSync(filePath, line, "utf8");
 }
 

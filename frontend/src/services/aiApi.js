@@ -67,14 +67,23 @@ export async function queryDrillingAssistant(prompt, wellId = null) {
     isFallback: true,
   };
 
-  // Timeout budget, hop by hop: Ollama itself gets up to 30s (app/search.py's answer()) before
-  // search.py gives up and degrades to plain search results; the Node backend's own call to that
-  // Python service gets 35s (config/aiService.js / search.routes.js's /api/ai/query handler); this
-  // client call needs to outlast both, so it gets 40s. The client's default request timeout is only
-  // 6s (see services/api.js) -- that was aborting the request and showing the offline fallback well
-  // before either backend hop had a chance to return a real synthesized answer.
+  // Timeout budget, hop by hop, each a step ahead of the one before so failures surface at the
+  // right layer: Ollama itself gets up to 35s (app/search.py's answer()) before search.py gives
+  // up and degrades to plain search results or a general note; the Node backend's own call to
+  // that Python service gets 36s (search.routes.js's /api/ai/query handler); this client call
+  // needs to outlast both, so it gets 42s. Sized (see search.py's answer()) to clear this
+  // machine's WORST case for a well-context answer, not just a typical one -- a maximally long
+  // answer at the num_predict cap costs =~29s of real decode+prefill at this hardware's measured
+  // ~4.4 tokens/sec, so the budget needs real margin above that, not just above a lucky-case
+  // measurement. An earlier 45s/50s/55s chain (raised from 30s/35s/40s after first confirming this
+  // machine only fits part of the 7B model in VRAM) turned out to be the wrong fix for a
+  // *different* problem -- it didn't make synthesis succeed any more often, it just made a live
+  // demo sit in silence for the better part of a minute before falling back anyway. This chain
+  // stays well under that one while still covering the real worst case, with the fallback below as
+  // a safety net for when the backend is genuinely unreachable, not the normal path for a slow
+  // answer.
   const res = await safeApiCall(
-    () => apiClient.post('/ai/query', wellId ? { prompt, wellId } : { prompt }, { timeout: 40000 }),
+    () => apiClient.post('/ai/query', wellId ? { prompt, wellId } : { prompt }, { timeout: 42000 }),
     fallback,
     'POST /ai/query'
   );
